@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+	overflow: hidden;
+}
+
+#title, #navigation {
+	width: 100%;
+	margin: 0; padding: 0 40px;
+	overflow: hidden;
+}
+#title, a {
+	color: #fff;
+}
+
+#title {
+	height: 100px;
+	background-color: #5085a5;
+}
+#title h1 {
+	margin: 0; padding: 0;
+	line-height: 150px;
+	font-size: 21pt;
+}
+
+#navigation {
+	height: 40px;
+	background-color: #31708e;
+}
+
+/* 메뉴 목록: 여백 조정 */
+#navigation ul {
+	list-style: none;
+	margin: 0; padding: 0;
+}
+/* 메뉴 목록: 리스트 스타일 제거 및 목록간 여백 */
+#navigation ul li {
+	display: inline-block;
+	padding-right: 25px;
+	line-height: 260%;
+	font-weight: bold;
+}
+/* 메뉴 목록: 앵커 스타일 제거 */
+#navigation a {
+	text-decoration: none;
+}
+
+/* 모바일 (css 마지막에) */
+@media screen and (max-width: 800px) {
+    #title, #navigation {
+        padding: 0 15px;
+    }
+}

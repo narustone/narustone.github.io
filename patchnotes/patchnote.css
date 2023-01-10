@@ -1,0 +1,313 @@
+@charset "UTF-8";
+
+/* header */
+#patchnote .patchnote_heading {
+    margin: 0; padding: 0px 0px 3px 12px ;
+    background-color: #334;
+}
+#patchnote .patchnote_heading span {
+    font-size: 28pt;
+    line-height: 140%;
+    font-weight: bold;
+    color: #fff;
+}
+#patchnote .patchnote_authorization { /* 추가항목의 플레이 권리에 대해서 */
+    padding: 0px 0px 1px 14px;
+    background-color: #990000;
+    line-height: 160%;
+}
+#patchnote .patchnote_authorization span {
+    font-size: 13pt;
+    color: #fff;
+}
+
+/* version tag */
+#patchnote p.ver {
+    margin: 0px; padding: 0;
+    margin-bottom: -12px;
+}
+#patchnote span.patchnote_ver2, span.patchnote_ver3, span.patchnote_ver4, span.patchnote_ver5, span.patchnote_ver6 {
+    margin: 0px 1px;
+    padding: 0px 7px 3px 7px;
+    border-radius: 5px; 
+    font-weight: bold; color: #fff;
+}
+#patchnote span.patchnote_ver2 { background-color: #777; }
+#patchnote span.patchnote_ver3 { background-color: #58f; }
+#patchnote span.patchnote_ver4 { background-color: #b33; }
+#patchnote span.patchnote_ver5 { background-color: #64f; }
+#patchnote span.patchnote_ver6 { background-color: #c93; }
+
+#patchnote hr {
+    width: 25%;
+    border: 3px solid rgb(104, 120, 100, 0.35) !important /* #687864 */;
+    border-radius: 3px;
+    margin: 50px auto;
+}
+#patchnote hr.clear {
+    border: 0;
+    margin: 30px auto;
+}
+
+/* contents: headings */
+#patchnote h2 { /* 섹션 제목 */
+    padding: 10px 0px 15px 15px;
+    background-color: #64a81c;
+    text-align: left;
+}
+#patchnote h2 span {
+    font-size: 25pt;
+    line-height: 140%;
+    font-weight: bold;
+    color: #fff;
+}
+#patchnote h3 { /* 중간 제목 (서브 섹션용) */
+    padding: 0px 0px 3px 16px;
+    background-color: #64a81c;
+    text-align: left;
+}
+#patchnote h3 span {
+    margin: 0; padding: 0;
+    font-size: 19pt;
+    line-height: 140%;
+    font-weight: bold;
+    color: #fff;
+}
+#patchnote h4 { /* 각 항목 */
+    margin: 0; padding: 0;
+    border-bottom: 2px solid;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #5a8a2f;
+}
+#patchnote h5 {
+    margin: 1.6em auto 0.2em auto;
+    line-height: 1em;
+    font-size: 13pt;
+    font-weight: bold; 
+
+}
+#patchnote p {
+    font-size: 12pt;
+    line-height: 160%;
+}
+
+#patchnote .green { color: #5a8a2f; }
+#patchnote .orange { color: #ce6c32; }
+#patchnote .blue { color: #0000ff; }
+#patchnote .red { color: #93102a; }
+#patchnote .left { text-align: left; }
+
+#patchnote ul {
+    padding-left: 10px !important;
+    list-style-type: none;
+}
+#patchnote ul > li::before {
+  content: "⚫︎";
+  color: #64a81c;
+  font-weight: bold;
+  display: inline-block; 
+  width: 17px;
+}
+#patchnote ul ul {
+    margin: 10px 0; padding-left: 15px;
+    list-style-type: none;
+    font-size: 0.95em;
+}
+
+#patchnote p.list {
+    line-height: 120%;
+    margin: 7px auto;
+}
+#patchnote p.list::before {
+  content: "---o";
+  display: inline-block;
+  width: 25px;
+  font-weight: bold;
+  letter-spacing: -3px;
+  color: #64a81c;
+}
+
+#patchnote p.dia-list {
+    line-height: 120%;
+    font-weight: bold;
+}
+#patchnote p.dia-list::before {
+  content: "♦";
+  display: inline-block;
+  width: 21px;
+  position: relative;
+  top: 2px;
+  color: #64a81c;
+}
+
+#patchnote .sub-list {
+    margin: 0px 20px; padding: 0;
+    line-height: 150%;
+}
+
+#patchnote .tab {
+    display: block;
+    margin-left: 20px;
+}
+#patchnote .tab2 {
+    display: block;
+    margin-left: 40px;    
+}
+
+/* tables */
+/* for quest */
+#patchnote .table .quest {
+    width: calc(100% - 32px); /* padding 좌우만큼 줄임 */
+    margin: 0 !important; padding: 3px 15px 7px 15px;
+}
+#patchnote .table .heading {
+    margin-top: 20px !important;
+    background-color: #efefef;
+    border: 1px solid #aaa;
+    border-radius: 10px 10px 0px 0px;
+}
+#patchnote .table .inner {
+    border: 1px solid #aaa;
+    border-bottom: 0px; border-top: 0px;
+}
+#patchnote .table .last {
+    border: 1px solid #aaa; border-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+/* 퀘스트 정보 */
+#level, #place, #npc, #condition {
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px 2px;
+    text-indent: 32px;
+    border-bottom: 0px;
+}
+#level_last, #condition_last, #npc_last, #item {
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px 2px;
+    text-indent: 32px;
+}
+p#level, p#level_last {
+    background-image: url("level.png");
+}
+p#place {
+    background-image: url("place.png");
+}
+p#npc, p#npc_last {
+    background-image: url("npc.png");
+}
+p#condition, p#condition_last {
+    background-image: url("condition.png");
+}
+p#item {
+    background-image: url("other.png");
+}
+/* for general */
+#patchnote .grid_general {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto;
+    margin-top: 5px;
+}
+#patchnote .grid_general .heading {
+    text-align: center;
+    margin:2px;
+    color: #fff;
+    background-color: #64a81c;
+    border-radius: 5px;
+}
+#patchnote .grid_general>p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0; padding: 0 10px 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* for limitation */
+#patchnote .grid_dg {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto;
+    margin-top: 5px;
+}
+#patchnote .grid_dg .heading {
+    text-align: center;
+    margin:2px;
+    color: #fff;
+    background-color: #64a81c;
+    border-radius: 5px;
+}
+#patchnote .grid_dg>p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0; padding: 0 10px 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* for revision */
+#patchnote .grid_re {
+    display: grid;
+    grid-template-columns: 1fr 30px 1fr;
+    grid-auto-rows: auto;
+    margin-top: 5px;
+}
+#patchnote .grid_re .heading {
+    margin:2px;
+    border-bottom: 0;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #64a81c;
+}
+#patchnote .grid_re .gray {
+    background-color: #777;
+}
+#patchnote .grid_re .space {
+    border: 0;
+    color: #64a81c;
+}
+#patchnote .grid_re>p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0; padding: 0 10px 5px 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+/* for action */
+#patchnote .grid_action {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: auto;
+    margin-top: 5px;
+}
+#patchnote .grid_action .heading {
+    margin:2px;
+    border-bottom: 0;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #64a81c;
+}
+#patchnote .grid_action .gray {
+    background-color: #777;
+}
+#patchnote .grid_action .space {
+    border: 0;
+    color: #64a81c;
+}
+#patchnote .grid_action>p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0; padding: 0 10px 5px 10px;
+    border-bottom: 1px solid #ccc;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>Patch Notes</title>
+	<meta http-equiv="content-type" content="text/html"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="basis.css"/>
+	<link rel="stylesheet" type="text/css" href="struct.css"/>
+	<link rel="stylesheet" type="text/css" href="article.css"/>
+
+	<script>
+		var oldfirst = false;
+		var direction = "column-reverse";
+		function reorder() {
+			if(oldfirst) {
+				direction = "column-reverse";
+				document.getElementById("reorder_button").value = "출시 순서대로 보기";
+			} else {
+				direction = "column";
+				document.getElementById("reorder_button").value = "최근 버전부터 보기";
+			}
+			oldfirst = !oldfirst;
+
+			var items = document.querySelectorAll(".flex");
+			for(let i = 0; i < items.length; i++) {
+				items[i].style.flexDirection = direction;
+			}
+		}
+	</script>
+</head>
+<body>
+<div id="header">
+	<embed src="header.htm"/>
+</div>
+<div class="wrap">
+<div id="content">
+<h1>패치노트</h1>
+
+
+
+<!-- CONTENTS AREA STARTS -->
+<div id="posting">
+
+<div class="feature"><input type="button" class="button" id="reorder_button" value="출시 순서대로 보기" onClick="reorder()"/></div>
+<div class="flex">
+	<div>
+		<h2>홍련의 해방자</h2><h4>4.0 紅蓮の解放者(リベレーター) / Stormblood</h4>
+		<ul>
+			<li><a href="patchnotes/400.htm">4.0패치노트</a></li>
+			<li><a href="patchnotes/401.htm">4.01패치노트</a></li>
+			<li><a href="patchnotes/405.htm">4.05패치노트</a></li>
+			<li><a href="patchnotes/406.htm">4.06패치노트</a></li>
+			<li><a href="patchnotes/406a.htm">4.06a패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>영웅의 귀환</h2><h4>4.1 英雄の帰還 / The Legend Returns</h4>
+		<ul>
+			<li><a href="patchnotes/410.htm">4.1패치노트</a></li>
+			<li><a href="patchnotes/411.htm">4.11패치노트</a></li>
+			<li><a href="patchnotes/415.htm">4.15패치노트</a></li>
+			<li><a href="patchnotes/418.htm">4.18패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>효광의 시간</h2><h4>4.2 暁光の刻 / Rise of a New Sun</h4>
+		<ul>
+			<li><a href="patchnotes/420.htm">4.2패치노트</a></li>
+			<li><a href="patchnotes/421.htm">4.21패치노트</a></li>
+			<li><a href="patchnotes/425.htm">4.25패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>월하의 꽃</h2><h4>4.3 月下の華 / Under the Moonlight</h4>
+		<ul>
+			<li><a href="patchnotes/430.htm">4.3패치노트</a></li>
+			<li><a href="patchnotes/431.htm">4.31패치노트</a></li>
+			<li><a href="patchnotes/435.htm">4.35패치노트</a></li>
+			<li><a href="patchnotes/436.htm">4.36패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>광란의 전주곡</h2><h4>4.4 狂亂の前奏曲 / Prelude in Violet</h4>
+		<ul>
+			<li><a href="patchnotes/440.htm">4.4패치노트</a></li>
+			<li><a href="patchnotes/441.htm">4.41패치노트</a></li>
+			<li><a href="patchnotes/445.htm">4.45패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>영웅에의 진혼가</h2><h4>4.5 英雄ヘの鎮魂歌 / A Requiem for Heroes</h4>
+		<ul>
+			<li><a href="patchnotes/450.htm">4.5패치노트</a></li>
+			<li><a href="patchnotes/455.htm">4.55패치노트</a></li>
+			<li><a href="patchnotes/456.htm">4.56패치노트</a></li>
+			<li><a href="patchnotes/457.htm">4.57패치노트</a></li>
+			<li><a href="patchnotes/458.htm">4.58패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>칠흑의 반역자</h2><h4>5.0 漆黑の反逆者(ヴィランズ) / Shadowbringer</h4>
+		<ul>
+			<li><a href="patchnotes/500.htm">5.0패치노트</a></li>
+			<li><a href="patchnotes/501.htm">5.01패치노트</a></li>
+			<li><a href="patchnotes/505.htm">5.05패치노트</a></li>
+			<li><a href="patchnotes/508.htm">5.08패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>하얀 서약, 검은 밀약</h2><h4>5.1 白き誓約、黒き密約 / Vow of Virtue, Deeds of Cruelty</h4>
+		<ul>
+			<li><a href="patchnotes/510.htm">5.1패치노트</a></li>
+			<li><a href="patchnotes/511.htm">5.11패치노트</a></li>
+			<li><a href="patchnotes/515.htm">5.15패치노트</a></li>
+			<li><a href="patchnotes/518.htm">5.18패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>추억의 흉성</h2><h4>5.2 追憶の凶星 / Echoes of a Fallen Star</h4>
+		<ul>
+			<li><a href="patchnotes/520.htm">5.2패치노트</a></li>
+			<li><a href="patchnotes/521.htm">5.21패치노트</a></li>
+			<li><a href="patchnotes/525.htm">5.25패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>크리스탈의 잔광</h2><h4>5.3 クリスタルの残光 / Reflections in Crystal</h4>
+		<ul>
+			<li><a href="patchnotes/530.htm">5.3패치노트</a></li>
+			<li><a href="patchnotes/531.htm">5.31패치노트</a></li>
+			<li><a href="patchnotes/535.htm">5.35패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>또 하나의 미래</h2><h4>5.4 もうひとつの未来 / Futures Rewritten</h4>
+		<ul>
+			<li><a href="patchnotes/540.htm">5.4패치노트</a></li>
+			<li><a href="patchnotes/541.htm">5.41패치노트</a></li>
+			<li><a href="patchnotes/545.htm">5.45패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>여명의 사투</h2><h4>5.5 黎明の死闘 / Death Unto Dawn</h4>
+		<ul>
+			<li><a href="patchnotes/550.htm">5.5패치노트</a></li>
+			<li><a href="patchnotes/555.htm">5.55패치노트</a></li>
+			<li><a href="patchnotes/557.htm">5.57패치노트</a></li>
+			<li><a href="patchnotes/558.htm">5.58패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>효월의 종언</h2><h4>6.0 暁月の終焉(フィナーレ) / Endwalker</h4>
+		<ul>
+			<li><a href="patchnotes/600.htm">6.0 패치노트</a></li>
+			<li><a href="patchnotes/601.htm">6.01 패치노트</a></li>
+			<li><a href="patchnotes/605.htm">6.05 패치노트</a></li>
+			<li><a href="patchnotes/608.htm">6.08 패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>새로운 모험</h2><h4>6.1 新たなる冒険 / Newfound Adventure</h4>
+		<ul>
+			<li><a href="patchnotes/610.htm">6.1 패치노트</a></li>
+			<li><a href="patchnotes/611.htm">6.11 패치노트</a></li>
+			<li><a href="patchnotes/611a.htm">6.11a 패치노트</a></li>
+			<li><a href="patchnotes/615.htm">6.15 패치노트</a></li>
+			<li><a href="patchnotes/618.htm">6.18 패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>금단의 기억</h2><h4>6.2 禁断の記憶 / Buried Memory</h4>
+		<ul>
+			<li><a href="patchnotes/620.htm">6.2 패치노트</a></li>
+			<li><a href="patchnotes/621.htm">6.21 패치노트</a></li>
+			<li><a href="patchnotes/625.htm">6.25 패치노트</a></li>
+			<li><a href="patchnotes/628.htm">6.28 패치노트</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>하늘의 축제, 땅의 울림</h2><h4>6.3 天の祝祭、地の鳴動 / Gods Revel, Lands Tremble</h4>
+		<ul>
+			<li><a href="patchnotes/630.htm">6.3 패치노트</a></li>
+		</ul>
+	</div>
+</div>
+
+</div>
+<!-- CONTENTS AREA ENDS -->
+
+
+
+<div id="footer"><embed src="footer.htm"/></div>
+</div>
+</div>
+</body>
+</html>
