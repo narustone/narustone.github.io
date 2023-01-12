@@ -26,17 +26,17 @@
     margin: 0px; padding: 0;
     margin-bottom: -12px;
 }
-#patchnote span.patchnote_ver2, span.patchnote_ver3, span.patchnote_ver4, span.patchnote_ver5, span.patchnote_ver6 {
+#patchnote span.ver2, span.ver3, span.ver4, span.ver5, span.ver6 {
     margin: 0px 1px;
     padding: 0px 7px 3px 7px;
     border-radius: 5px; 
     font-weight: bold; color: #fff;
 }
-#patchnote span.patchnote_ver2 { background-color: #777; }
-#patchnote span.patchnote_ver3 { background-color: #58f; }
-#patchnote span.patchnote_ver4 { background-color: #b33; }
-#patchnote span.patchnote_ver5 { background-color: #64f; }
-#patchnote span.patchnote_ver6 { background-color: #c93; }
+#patchnote span.ver2 { background-color: #777; }
+#patchnote span.ver3 { background-color: #58f; }
+#patchnote span.ver4 { background-color: #b33; }
+#patchnote span.ver5 { background-color: #64f; }
+#patchnote span.ver6 { background-color: #c93; }
 
 #patchnote hr {
     width: 25%;
@@ -101,6 +101,8 @@
 #patchnote ul {
     padding-left: 10px !important;
     list-style-type: none;
+}
+#patchnote ul li {
 }
 #patchnote ul > li::before {
   content: "⚫︎";
@@ -284,7 +286,7 @@ p#item {
 /* for action */
 #patchnote .grid_action {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr;
     grid-auto-rows: auto;
     margin-top: 5px;
 }
