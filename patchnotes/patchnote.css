@@ -24,7 +24,6 @@
 /* version tag */
 #patchnote p.ver {
     margin: 0px; padding: 0;
-    margin-bottom: -12px;
 }
 #patchnote span.ver2, span.ver3, span.ver4, span.ver5, span.ver6 {
     margin: 0px 1px;
@@ -75,6 +74,7 @@
 }
 #patchnote h4 { /* 각 항목 */
     margin: 0; padding: 0;
+    margin-top: -10px;
     border-bottom: 2px solid;
     font-size: 14pt;
     font-weight: bold;
@@ -206,36 +206,15 @@ p#condition, p#condition_last {
 p#item {
     background-image: url("other.png");
 }
-/* for general */
-#patchnote .grid_general {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-auto-rows: auto;
-    margin-top: 5px;
-}
-#patchnote .grid_general .heading {
-    text-align: center;
-    margin:2px;
-    color: #fff;
-    background-color: #64a81c;
-    border-radius: 5px;
-}
-#patchnote .grid_general>p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0; padding: 0 10px 5px 10px;
-    border-bottom: 1px solid #ccc;
-}
-
-/* for limitation */
+/* general & dungeon */
+#patchnote .grid_general,
 #patchnote .grid_dg {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-auto-rows: auto;
     margin-top: 5px;
 }
+#patchnote .grid_general .heading,
 #patchnote .grid_dg .heading {
     text-align: center;
     margin:2px;
@@ -243,6 +222,7 @@ p#item {
     background-color: #64a81c;
     border-radius: 5px;
 }
+#patchnote .grid_general>p,
 #patchnote .grid_dg>p {
     display: flex;
     flex-direction: column;
@@ -251,14 +231,22 @@ p#item {
     border-bottom: 1px solid #ccc;
 }
 
-/* for revision */
+/* for revision & action */
 #patchnote .grid_re {
     display: grid;
     grid-template-columns: 1fr 30px 1fr;
     grid-auto-rows: auto;
     margin-top: 5px;
 }
-#patchnote .grid_re .heading {
+/* for action */
+#patchnote .grid_action {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-auto-rows: auto;
+    margin-top: 5px;
+}
+#patchnote .grid_re .heading,
+#patchnote .grid_action .heading  {
     margin:2px;
     border-bottom: 0;
     border-radius: 5px;
@@ -266,10 +254,12 @@ p#item {
     color: #fff;
     background-color: #64a81c;
 }
-#patchnote .grid_re .gray {
+#patchnote .grid_re .gray,
+#patchnote .grid_action .gray {
     background-color: #777;
 }
-#patchnote .grid_re .space {
+#patchnote .grid_re .space,
+#patchnote .grid_action .space {
     border: 0;
     color: #64a81c;
 }
@@ -282,29 +272,6 @@ p#item {
     border-bottom: 1px solid #ccc;
     text-align: center;
 }
-
-/* for action */
-#patchnote .grid_action {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-auto-rows: auto;
-    margin-top: 5px;
-}
-#patchnote .grid_action .heading {
-    margin:2px;
-    border-bottom: 0;
-    border-radius: 5px;
-    text-align: center;
-    color: #fff;
-    background-color: #64a81c;
-}
-#patchnote .grid_action .gray {
-    background-color: #777;
-}
-#patchnote .grid_action .space {
-    border: 0;
-    color: #64a81c;
-}
 #patchnote .grid_action>p {
     display: flex;
     flex-direction: column;
@@ -312,4 +279,8 @@ p#item {
 
     margin: 0; padding: 0 10px 5px 10px;
     border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+#patchnote .center {
+    text-align: center;
 }
