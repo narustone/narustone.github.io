@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://narustone.github.io/</loc>
+	<lostmod>2023-01-15</lostmod>
+	<changefreq>daily</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://narustone.github.io/patchnotes/620.htm</loc>
+	<lostmod>2023-01-15</lostmod>
+	<changefreq>monthly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://narustone.github.io/patchnotes/621.htm</loc>
+	<lostmod>2023-01-13</lostmod>
+	<changefreq>monthly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://narustone.github.io/patchnotes/625.htm</loc>
+	<lostmod>2023-01-12</lostmod>
+	<changefreq>monthly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://narustone.github.io/patchnotes/628.htm</loc>
+	<lostmod>2023-01-11</lostmod>
+	<changefreq>monthly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://narustone.github.io/patchnotes/630.htm</loc>
+	<lostmod>2023-01-11</lostmod>
+	<changefreq>monthly</changefreq>
+	<priority>1.0</priority>
+</url>
+</urlset>
