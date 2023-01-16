@@ -99,17 +99,13 @@
 #patchnote .left { text-align: left; }
 
 #patchnote ul {
-    padding-left: 10px !important;
     list-style-type: none;
 }
-#patchnote ul li {
-}
-#patchnote ul > li::before {
-  content: "⚫︎";
-  color: #64a81c;
-  font-weight: bold;
-  display: inline-block; 
-  width: 17px;
+#patchnote ul li::marker {
+    content: "⬤ ";
+    color: #64a81c;
+    font-size: 80%;
+    letter-spacing: 3px;
 }
 #patchnote ul ul {
     margin: 10px 0; padding-left: 15px;
