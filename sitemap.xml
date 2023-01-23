@@ -2,8 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://narustone.github.io/</loc>
-	<lastmod>2023-01-21</lastmod>
+	<lastmod>2023-01-23</lastmod>
 	<changefreq>daily</changefreq>
+</url>
+<url>
+	<loc>https://narustone.github.io/patchnotes/605.htm</loc>
+	<lastmod>2023-01-23</lastmod>
+	<changefreq>monthly</changefreq>
+</url>
+<url>
+	<loc>https://narustone.github.io/patchnotes/608.htm</loc>
+	<lastmod>2023-01-23</lastmod>
+	<changefreq>monthly</changefreq>
 </url>
 <url>
 	<loc>https://narustone.github.io/patchnotes/610.htm</loc>
