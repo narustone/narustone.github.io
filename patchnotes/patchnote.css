@@ -47,6 +47,12 @@
     border: 0;
     margin: 30px auto;
 }
+#patchnote hr.thin {
+    width: 100%;
+    border: 0 !important;;
+    border-bottom: 1px dotted #ccc !important;;
+    margin: 10px auto;
+}
 
 /* contents: headings */
 #patchnote h2 { /* 섹션 제목 */
@@ -114,29 +120,33 @@
 }
 
 #patchnote p.list {
-    line-height: 120%;
-    margin: 7px auto;
+    line-height: 130%;
+    margin-left: 20px;
+    text-indent: -20px;
 }
 #patchnote p.list::before {
-  content: "--o";
-  display: inline-block;
-  width: 20px;
-  font-weight: bold;
-  letter-spacing: -3px;
-  color: #64a81c;
+    content: "--o";
+    display: inline-block;
+    width: 20px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    text-indent: 0px;
+    color: #64a81c;
 }
 
 #patchnote p.dia-list {
-    line-height: 120%;
+    line-height: 130%;
     font-weight: bold;
+    margin-left: 20px;
+    text-indent: -20px;
 }
 #patchnote p.dia-list::before {
-  content: "♦";
-  display: inline-block;
-  width: 21px;
-  position: relative;
-  top: 2px;
-  color: #64a81c;
+    content: "♦";
+    display: inline-block;
+    width: 20px;
+    top: 2px;
+    text-indent: 0px;
+    color: #64a81c;
 }
 
 #patchnote .sub-list {

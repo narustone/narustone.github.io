@@ -1,0 +1,2786 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>패치노트 6.0</title>
+    <meta http-equiv="content-type" content="text/html"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../basis.css"/>
+    <link rel="stylesheet" type="text/css" href="../struct.css"/>
+    <link rel="stylesheet" type="text/css" href="patchnote.css">
+</head>
+<body>
+<div id="header">
+    <embed src="../header.htm"/>
+</div>
+<div class="wrap"><div id="content">
+<h1>Final Fantasy XIV - 패치노트 6.0</h1>
+
+
+
+<!-- CONTENTS AREA STARTS -->
+<div id="patchnote">
+
+<p>잡 액션과 마테리아 등의 정보도 포함된 6.0패치노트 완전판을 공개합니다!</p>
+<p>하이데린/조디악편의 클라이막스를 맞이하는 메인퀘스트를 시작으로, 새로운 지역, 새로운 배틀, 신규 잡 '리퍼' '현자', 신종족 '비에라족(남성)' 등 다수의 신요소가 추가! 레벨 상한은 90으로 올라가 많은 액션의 추가/조정이 있는 것 외에 크래프터와 개더러의 조정, 그룹포즈의 확장, 각종 시스템의 변경 등 다방면에 걸친 업데이트가 있습니다.</p>
+<p>FFXIV 최초의 사가 '별과 생명을 둘러싼 이야기'---<br />
+    그 종말에 이르는 모험이 드디어 시작됩니다!</p>
+
+<p class="red">※ 이하의 컨텐츠는 이후 버전업에서 추가할 예정입니다.<br/>
+    [6.01] 레이드 '만마전 판데모니움 (万魔殿 パンデモニウム / Pandæmonium)'<br/>
+    [6.05] 레이드 '만마전 판데모니움(영식) [万魔殿 パンデモニウム（零式）/ Pandæmonium (Savage)]' / 보물창고 엑사이트론 (宝物庫 エキサイトロン / Excitatron)</p>
+<p class="red">※ 새로운 소규모 PvP '크리스탈 컨플릭트 (クリスタルコンフリクト / Crystal Conflict)'는 패치 6.1 이후에 추가 예정입니다.</p>
+<p class="red">※ 얼리억세스에 대한 상세는 '<a href="https://sqex.to/25z14" target="_blank">여기(일본어)</a>'를 참고해주세요.</p>
+
+<hr/>
+
+<p>파이널판타지14 로드스톤에 있는 패치노트 6.0 본공개판(일본어판, 2021년 12월 2일 공개)을 개인적으로 번역한 내용입니다. 개인적으로 패치 내용을 확인하고 간단히 검색하기 위해 만든 버전을 공개하는 것으로, 오류, 오역 등이 있을 수 있습니다. 또한, 이 문서의 참고, 활용 등으로 발생하는 모든 일에 책임지지 않습니다.</p>
+
+<p>원문 링크 : <a href="https://jp.finalfantasyxiv.com/lodestone/topics/detail/29c4dea51ae1e60c53d2c42df29c8b9c8d88aa69" target="_blank">일본어 패치노트</a> / <a href="https://na.finalfantasyxiv.com/lodestone/topics/detail/bdd208b52ddababad086dc9679e96a8412962edf" target="_blank">영어 패치노트</a></p>
+
+<hr/>
+
+<p class="patchnote_heading"><span>FINAL FANTASY XIV Patch 6.0</span></p>
+<p class="patchnote_authorization"><span>추가항목의 플레이 권리에 대해서</span></p>
+<p>패치6.0에는 확장팩 ‘파이널판타지14: 효월의 종언’의 권리가 필요한 요소와, 패치를 적용하는것만으로 즐길 수 있는 요소가 존재합니다. 이를 위해 6.0 패치노트에서는, 권리가 필요한가 여부를 각 항목에 표기하고 있습니다.</p>
+
+<p><span class="ver2">2.x</span><span> 이 표시가 있는 경우, ‘파이널판타지14: 신생 에오르제아’ & ‘파이널판타지14: 창천의 이슈가르드’의 권리가 있으면 즐길 수 있습니다.</span></p>
+<p><span class="ver4">4.x</span><span> 이 표시가 있는 경우, ‘파이널판타지14: 홍련의 해방자’의 권리가 필요합니다.</span></p>
+<p><span class="ver5">5.x</span><span> 이 표시가 있는 경우, ‘파이널판타지14: 칠흑의 반역자’의 권리가 필요합니다.</span></p>
+<p><span class="ver6">6.x</span><span> 이 표시가 있는 경우, ‘파이널판타지14: 효월의 종언’의 권리가 필요합니다.</span></p>
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span> <span>이 표시가 있는경우, 모든 요소를 즐기기 위해서는 각각의 권리가 필요합니다.</span></p>
+<p><br /></p>
+
+<h2><span>이벤트 관련 / Playable Contents</span></h2>
+<h3><span>지역 관련 / Areas</span></h3>
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 도시가 추가됩니다.</h4>
+<h5 class="green">≪올드 샤레안 (オールド・シャーレアン / Old Sharlayan)≫</h5>
+<p><img src="600/001.jpg"/></p>
+<p><img src="600/002.jpg"/></p>
+<h5 class="green">≪라자한 (ラザハン / Radz-at-Han)≫</h5>
+<p><img src="600/003.jpg"/></p>
+<p><img src="600/004.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 필드가 추가됩니다.</h4>
+<h5 class="green">≪라비린소스 (ラヴィリンソス / Labyrinthos)≫</h5>
+<p><img src="600/005.jpg"/></p>
+<p><img src="600/006.jpg"/></p>
+<h5 class="green">≪사베네어섬 (サベネア島 / Thavnair)≫</h5>
+<p><img src="600/007.jpg"/></p>
+<p><img src="600/008.jpg"/></p>
+<h5 class="green">≪가레말드 (ガレマルド / Garlemald)≫</h5>
+<p><img src="600/009.jpg"/></p>
+<p><img src="600/010.jpg"/></p>
+<h5 class="green">≪비탄의 바다 (嘆きの海 / Mare Lamentorum)≫</h5>
+<p><img src="600/011.jpg"/></p>
+<p><img src="600/012.jpg"/></p>
+<p class="red">※ 스포일러 방지를 위해 기재하지 않았지만, 이 외에도 복수의 새로운 필드가 추가됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새롭게 추가된 도시/필드에 에테라이트가 추가됩니다.</h4>
+<p><img src="600/013.jpg"/></p>
+<p><img src="600/014.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>3.0 ~ 5.0 지역에 각 필드의 '풍맥의 샘 (風脈の泉 / Aether currents)'이 일부 삭제됩니다. 또한, 일부 필드에서는 위치도 변경됩니다.</h4>
+<p class="red">※ 패치 6.0 공개전에 중간까지 풍맥의 샘을 교감한 경우, 이 변경에 따라 교감 조건을 달성한 필드가 있으면 플라잉이 개방됩니다.</p>
+<p><br /></p>
+
+<h3><span>퀘스트 관련 / Quests</span></h3>
+<p>패치 6.0에서는 새로운 모험의 땅을 둘러싼 메인퀘스트를 시작으로, 다수의 퀘스트가 추가됩니다. 이로 인해 6.0패치노트에서는 최초의 퀘스트만을 기재한 경우와 기재 자체를 생략한 경우가 있습니다. 새롭게 전개되는 많은 스토리를 꼭 플레이를 통해 즐겨주세요.</p>
+<p>발매일부터 플레이하는 분이나 자신의 페이스로 플레이하는 분들을 위해, 공식 포럼이나 Lodestone, 영상, SNS 등에의 투고가 메인스토리 등의 스포일러가 되지 않도록 가능한 범위에서 배려해주시면 감사하겠습니다.</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 메인퀘스트가 추가됩니다.</h4>
+<p><img src="600/015.jpg"/></p>
+<p><img src="600/016.jpg"/></p>
+<p><img src="600/017.jpg"/></p>
+<p><img src="600/018.jpg"/></p>
+
+<div class="table">
+    <p class="quest heading">이윽고 흐름은 바다로 들어간다 (やがて流れは海へと注ぐ / The Next Ship to Sail)</p>
+    <p class="quest inner" id="level">파이터/소서러 레벨 80</p>
+    <p class="quest inner" id="place">돌의 집(X:6.0 Y:5.9)</p>
+    <p class="quest inner" id="npc">알피노</p>
+    <p class="quest last" id="condition">메인퀘스트 '여명의 사투'를 완료</p>
+</div>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 서브퀘스트가 추가됩니다.</h4>
+<p>패치 6.0에서 추가되는 서브퀘스트는 '레벨 어드저스트'라는 특수한 룰이 설정되어 있습니다.</p>
+<p>레벨 어드저스트가 설정된 퀘스트에서는 클래스/잡의 레벨에 맞추어 퀘스트 배틀의 난이도가 변화됩니다. 또한, 퀘스트 완료시에 보상 경험치도 보고하는 클래스/잡의 레벨에 따라 변동됩니다.<br/>
+<span class="red">※ 일부 서브퀘스트는 대응하지 않습니다.</span></p>
+<p><img src="600/019.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 롤 퀘스트가 추가됩니다.</h4>
+<p>패치 6.0의 롤 퀘스트는 파이터계DPS가 근접물리DPS / 원거리물리DPS로 분리되어 총 5종류가 추가됩니다.</p>
+<p><img src="600/020.jpg"/></p>
+<p><img src="600/021.jpg"/></p>
+
+<h5 class="green">≪TANK(나이트/전사/암흑기사/건브레이커)≫</h5>
+<div class="table">
+    <p class="quest heading">죽음에 묶인 숲 (死に鎖された森 / Shrouded in Peril)</p>
+    <p class="quest inner" id="level">????????</p>
+    <p class="quest inner" id="place">라자한(X:7.6 Y:9.7)</p>
+    <p class="quest inner" id="npc">그리다니아의 주재무관 (グリダニアの駐在武官 / Gridanian Delegate)</p>
+    <p class="quest last" id="condition">'메인퀘스트: 효월의 피날레 (メインクエスト：暁月のフィナーレ / Endwalker)'를 특정 퀘스트까지 진행한다</p>
+</div>
+
+<h5 class="green">≪근접물리DPS(몽크/용기사/닌자/사무라이/리퍼)≫</h5>
+<div class="table">
+    <p class="quest heading">자, 출항의 때 (いざ、出航の時 / Storm Clouds Brewing)</p>
+    <p class="quest inner" id="level">????????</p>
+    <p class="quest inner" id="place">라자한(X:7.7 Y:9.6)</p>
+    <p class="quest inner" id="npc">림사 로민사의 주재무관 (リムサ・ロミンサの駐在武官 / Limsa Lominsan Delegate)</p>
+    <p class="quest last" id="condition">'메인퀘스트: 효월의 피날레 (メインクエスト：暁月のフィナーレ / Endwalker)'를 특정 퀘스트까지 진행한다</p>
+</div>
+
+<h5 class="green">≪원거리물리DPS(음유시인/기공사/무희)≫</h5>
+<div class="table">
+    <p class="quest heading">감춰진 백성의 마음 (秘められし民の想い / Seeds of Disquiet)</p>
+    <p class="quest inner" id="level">????????</p>
+    <p class="quest inner" id="place">라자한(X:7.6 Y:9.6)</p>
+    <p class="quest inner" id="npc">도마의 주재무관 (ドマの駐在武官 / Doman Delegate)</p>
+    <p class="quest last" id="condition">'메인퀘스트: 효월의 피날레 (メインクエスト：暁月のフィナーレ / Endwalker)'를 특정 퀘스트까지 진행한다</p>
+</div>
+
+<h5 class="green">≪원거리마법DPS(흑마도사/소환사/적마도사)≫</h5>
+<div class="table">
+    <p class="quest heading">상처입은 황도의 영혼은 (傷ついた皇都の魂は / Our Aching Souls)</p>
+    <p class="quest inner" id="level">????????</p>
+    <p class="quest inner" id="place">라자한(X:7.8 Y:9.6)</p>
+    <p class="quest inner" id="npc">도마의 주재무관 (イシュガルドの駐在武官 / Ishgardian Delegate)</p>
+    <p class="quest last" id="condition">'메인퀘스트: 효월의 피날레 (メインクエスト：暁月のフィナーレ / Endwalker)'를 특정 퀘스트까지 진행한다</p>
+</div>
+
+<h5 class="green">≪HEALER(백마도사/학자/점성술사/현자)≫</h5>
+<div class="table">
+    <p class="quest heading">자유가 낳은 아라미고의 짐승 (自由が生みしアラミゴの獣 / Far from Free)</p>
+    <p class="quest inner" id="level">????????</p>
+    <p class="quest inner" id="place">라자한(X:7.5 Y:9.6)</p>
+    <p class="quest inner" id="npc">도마의 주재무관 (アラミゴの駐在武官 / Ala Mhigan Delegate)</p>
+    <p class="quest last" id="condition">'메인퀘스트: 효월의 피날레 (メインクエスト：暁月のフィナーレ / Endwalker)'를 특정 퀘스트까지 진행한다</p>
+</div>
+<p class="red">※ '메인퀘스트: 효월의 피날레'와 모든 롤 퀘스트를 완료하면 새로 개방되는 엑스트라 퀘스트는 이후 패치에서 추가될 예정입니다.</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 클래스퀘스트 '샤레안 마법대학 거래 (シャーレアン魔法大学取引 / Studium Deliveries)'가 추가됩니다.</h4>
+<p><img src="600/022.jpg"/></p>
+<p><img src="600/023.jpg"/></p>
+<p>'샤레안 마법대학'에는 5종류의 학부가 존재하여, 각 학부에 대응하는 크래프터/개더러 클래스로 퀘스트를 수주할 수 있습니다.</p>
+<p>지정된 수집품 아이템을 납품하면 이벤트가 진행됩니다.<br/>
+<span class="red">※ '샤레안 마법대학 거래'에서는 보상으로 크래프터/개더러 스크립을 취급하기 때문에, 진행하려면 서브퀘스트 '장인의 새로운 일 (職人の新たなお仕事 / Inscrutable Tastes)'을 완료할 필요가 있습니다.</span></p>
+<p><img src="600/024.jpg"/></p>
+
+<h5 class="green">≪개방 퀘스트≫</h5>
+<div class="table">
+    <p class="quest heading">마법대학 직원의 부탁 (魔法大学職員からのお願い / The Faculty)</p>
+    <p class="quest inner" id="level">크래프터/개더러 레벨 80</p>
+    <p class="quest inner" id="place">올드 샤레안(X:4.0 Y:9.4)</p>
+    <p class="quest inner" id="npc">키 아리아포 (キィ・アリアポー / Qih Aliapoh)</p>
+    <p class="quest last" id="condition">'메인퀘스트: 효월의 피날레'를 특정 퀘스트까지 진행하고, 서브퀘스트 '장인의 새로운 일'을 완료한다</p>
+</div>
+
+<h5 class="green">≪고고학부(대장장이/갑주사/조금사)≫</h5>
+<div class="table">
+    <p class="quest heading">루루샤 교수와 기묘한 유물 (ルルシャ教授と奇妙な遺物 / Professor Rurusha's New Friend)</p>
+    <p class="quest inner" id="level">대장장이/갑주사/조금사 중 하나의 레벨 80</p>
+    <p class="quest inner" id="place">올드 샤레안(X:4.2 Y:9.4)</p>
+    <p class="quest inner" id="npc">보릭 (ボリック / Boric)</p>
+    <p class="quest last" id="condition">클래스퀘스트 '마법대학 직원의 부탁 (魔法大学職員からのお願い / The Faculty)'을 완료</p>
+</div>
+
+<h5 class="green">≪천문학부(목공사/혁세공사/재봉사)≫</h5>
+<div class="table">
+    <p class="quest heading">푸른 별을 찾아서 (蒼の星を探して / In Search of the Azure Star)</p>
+    <p class="quest inner" id="level">목공사/혁세공사/재봉사 중 하나의 레벨 80</p>
+    <p class="quest inner" id="place">올드 샤레안(X:4.1 Y:9.1)</p>
+    <p class="quest inner" id="npc">쥬드 (ジュード / Jude)</p>
+    <p class="quest last" id="condition">클래스퀘스트 '마법대학 직원의 부탁 (魔法大学職員からのお願い / The Faculty)'을 완료</p>
+</div>
+
+<h5 class="green">≪의학부(연금술사/조리사)≫</h5>
+<div class="table">
+    <p class="quest heading">맛없는 완전식 (激マズ完全食 / Perfectly Awful)</p>
+    <p class="quest inner" id="level">연금술사/조리사 중 하나의 레벨 80</p>
+    <p class="quest inner" id="place">올드 샤레안(X:4.2 Y:9.2)</p>
+    <p class="quest inner" id="npc">데브로이 (デブロイ / Debroye)</p>
+    <p class="quest last" id="condition">클래스퀘스트 '마법대학 직원의 부탁 (魔法大学職員からのお願い / The Faculty)'을 완료</p>
+</div>
+
+<h5 class="green">≪문화학부(채굴사/원예사)≫</h5>
+<div class="table">
+    <p class="quest heading">달콤한 문화 체험 (甘い文化体験 / Cultured Pursuits)</p>
+    <p class="quest inner" id="level">채굴사/원예사 중 하나의 레벨 80</p>
+    <p class="quest inner" id="place">올드 샤레안(X:4.0 Y:9.3)</p>
+    <p class="quest inner" id="npc">히나게시 (ヒナゲシ / Hinageshi)</p>
+    <p class="quest last" id="condition">클래스퀘스트 '마법대학 직원의 부탁 (魔法大学職員からのお願い / The Faculty)'을 완료</p>
+</div>
+
+<h5 class="green">≪에테르학부(어부)≫</h5>
+<div class="table">
+    <p class="quest heading">벼랑 끝 준교수의 논문 (崖っぷち准教授の論文 / Fear the Thesis)</p>
+    <p class="quest inner" id="level">어부 레벨 80</p>
+    <p class="quest inner" id="place">올드 샤레안(X:4.2 Y:9.5)</p>
+    <p class="quest inner" id="npc">챠 라카 티아 (チャ・ラカ・ティア / T'laqa Tia)</p>
+    <p class="quest last" id="condition">클래스퀘스트 '마법대학 직원의 부탁 (魔法大学職員からのお願い / The Faculty)'을 완료</p>
+</div>
+<p>'메인퀘스트: 효월의 피날레'와 샤레안 마법대학 거래의 모든 퀘스트를 마지막까지 완료하면, 엑스트라 퀘스트가 개방됩니다.</p>
+
+<div class="table">
+    <p class="quest heading">????????</p>
+    <p class="quest inner" id="level">크래프터/개더러 레벨 90</p>
+    <p class="quest inner" id="place">올드 샤레안(X:4.0 Y:9.4)</p>
+    <p class="quest inner" id="npc">키 아리아포 (キィ・アリアポー / Qih Aliapoh)</p>
+    <p class="quest last" id="condition">'메인퀘스트: 효월의 피날레'의 최종 퀘스트, 샤레안 마법대학 거래의 모든 퀘스트를 마지막까지 완료</p>
+</div>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>일부 퀘스트 인스턴스 배틀중에 표시되는 메세지에 화자의 얼굴 아이콘이 표시되게 됩니다.</h4>
+<p>대상은 패치 6.0 메인스토리의 퀘스트 인스턴스 배틀입니다. 패치 6.0 이전에 추가된 배틀이나 메인스토리 이외의 배틀에서는 표시되지 않습니다. 또한, 메인커맨드 '시스템 메뉴' → '캐릭터 컨피그' → '유저인터페이스 설정' → 'HUD'에서 얼굴 아이콘 표시 ON/OFF를 변경할 수 있습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span></p>
+<h4>애용의 기행록에서 패치 4.x까지의 '클래스 퀘스트' '잡 퀘스트'를 재생할 때, 그 퀘스트가 수주가능한 클래스/잡인 상태에서만 재생할 수 있게 변경됩니다.</h4>
+<p>수주 조건이 '배틀클래스'인 컷신은 그 클래스에 대응하는 잡이라면 재생가능합니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>일부 읽기 어려운 단어/특수하게 읽는 단어에 루비(요미가나)가 추가됩니다.</h4>
+<p><img src="600/025.jpg"/></p>
+<p>패치 6.0에서는 주로 신규 추가된 텍스트에 추가됩니다. 과거의 텍스트에 대해서는 이후 패치에서 대응할 예정입니다.</p>
+<p><br /></p>
+
+<h3><span>리브 관련 / Leves</span></h3>
+<p><span class="ver6">6.x</span></p>
+<h4>6.0 지역에서 수주할 수 있는 새로운 리브 '제작직업' '채집직업'이 추가됩니다.</h4>
+<p>6.0 지역의 리브에서는 크래프터의 대규모 의뢰 / 어부의 대량 채집은 추가되지 않습니다.</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>레벨 80 이상의 클래스로 레벨 80 미만의 제작 리브 및 어부 채집업 리브를 완료했을 때, 보상 경험치의 상한이 1,000으로 변경됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>'제작직업' '채집직업'에서 길의 인플레이션 경향과 '리브 수주권 1매'에 대한 보수량을 감안하여 다음과 같이 보수량이 조정됩니다.</h4>
+<p class="dia-list">제작직업에서 '제작의뢰' '조달의뢰'로 얻을 수 있는 경험치/길이 증가합니다.</p>
+<p class="dia-list">제작직업에서 '대형의뢰'로 얻을 수 있는 경험치/길이 적어집니다.</p>
+<p class="dia-list">어부용 채집직업에서 '지정채집'으로 얻을 수 있는 경험치/길이 증가합니다.</p>
+<p class="dia-list">어부용 채집직업에서 '대량채집'으로 얻을 수 있는 경험치/길이 적어집니다.</p>
+<p class="red">※ 패치 6.0에서는 각종 수치의 디노미네이션이 실시되어, 수치의 자리수 변경 등이 발생합니다. 이로 인해, 5.x까지의 보상 수치와 6.0 이후의 보상 수치를 단순 비교할 수 없게 되니 주의해주세요.</p>
+<p><br /></p>
+
+<p><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>어부용 '채집직업' 중 '작살낚시 (刺突漁 / Spearfishing)'로 입수한 물고기를 납품하는 것에서 납품에 필요한 개수가 증가합니다.</h4>
+<p><br /></p>
+
+<h3><span>F.A.T.E. 관련 / FATEs</span></h3>
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 F.A.T.E.가 추가됩니다.</h4>
+<p><img src="600/026.jpg"/></p>
+<p>6.0 지역의 F.A.T.E.에서는 완료시 보상으로 5.x에 이어 '바이카라젬 (バイカラージェム / Gemstone)'을 획득할 수 있습니다. 바이카라젬은 NPC '광역교역상 (広域交易商 / Gemstone Trader)'에게서 아이템으로 교환할 수 있습니다.</p>
+<p><img src="600/027.jpg"/></p>
+<p>또한, 광역교역상이 취급하는 상품목록은 해당 지역의 F.A.T.E. 달성 횟수에 따라 증가해 나갑니다.</p>
+<p>각 지역의 F.A.T.E.의 달성 상황이나 소지하고 있는 바이카라젬의 개수는 메인커맨드 '맵&amp;트래블' → 'F.A.T.E.달성도'에서 확인할 수 있습니다.</p>
+<p><img src="600/028.jpg"/></p>
+<p><br /></p>
+
+<h3><span>트레저 헌트 관련 / Treasure Hunt</span></h3>
+<p><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>보물지도에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">'보물지도G13 (宝の地図G13 / Almastyskin Treasure Maps)' '보물지도G14 (宝の地図G14 / Kumbhiraskin Treasure Maps)'가 추가됩니다.</p>
+<p class="dia-list">'보물지도G11' '보물지도G12'의 보상이 추가/변경됩니다.</p>
+<p class="dia-list">패치 6.0 이전의 트레저 헌트를 공략했을 때, 얻을 수 있는 알라간 툼스톤이 묵시/기담 → 시학으로 변경됩니다.</p>
+<p class="red">※ 패치 6.05에서는 보물지도 G14를 완료했을 때, 전송마문이 드물게 출현하게 될 예정입니다.</p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>'보물창고 레 기아 던전' '보물창고 레 기아 던전 제전'에서 레벨 80으로 레벨싱크가 되게 됩니다.</h4>
+<p><br /></p>
+
+<h3><span>컴퍼니 관련 / Grand and Free Companies</span></h3>
+<p><span class="ver6">6.x</span></p>
+<h4>'군수품 조달 (軍需品調達 / Supply missions)' '보급품 조달 (補給品調達 / Provisioning Missions)'의 납품 대상 아이템이 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>컴퍼니 크레스트에서 사용할 수 있는 심볼에 '리퍼 (リーパー / Reaper)' '현자 (賢者 / Sage)' 아이콘이 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>컴퍼니 크래프트에서 제작할 수 있는 새로운 아이템이 추가됩니다.</h4>
+<p><img src="600/029.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>이하의 컴퍼니 액션이 새로운 컴퍼니 액션으로 교체됩니다.</h4>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>쇠약시간단축 (衰弱時間短縮 / Back on Your Feet)</p>
+    <p class="space">🡺</p>
+    <p>도시내 스프린트 효과시간 연장 (都市内スプリント効果時間延長 / Fleet-footed)</p>
+    <p>쇠약시간단축2 (衰弱時間短縮II / Back on Your Feet II)</p>
+    <p class="space">🡺</p>
+    <p>도시내 스프린트 효과시간 연장2 (都市内スプリント効果時間延長II / Fleet-footed II)</p>
+</div>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>각 도시의 그랜드컴퍼니 군표 교환품에 새로운 아이템이 추가됩니다.</h4>
+<div class="grid_general">
+    <p class="heading">아이템</p>
+    <p class="heading">필요군표수</p>
+    <p>다크마타G8 (ダークマターG8 / Grade 8 Dark Matter)</p>
+    <p>600</p>
+    <p>특별지급 컨테이너(신생/창천) [特別支給コンテナ（新生・蒼天）/ Materiel Container 3.0]</p>
+    <p>20,000</p>
+    <p>특별지급 컨테이너(홍련) [特別支給コンテナ（紅蓮）/ Materiel Container 4.0]</p>
+    <p>20,000</p>
+</div>
+<p><br /></p>
+
+<h3><span>하우징 관련 / Housing</span></h3>
+<p><span class="ver2">2.x</span></p>
+<h4>플레이어 여러분의 협력으로 창천가의 부흥이 완료됨에 따라 이슈가르드에 새로운 하우징 지역 '엠피레엄 (エンピレアム / Empyreum)'이 추가됩니다.</h4>
+<h5 class="green">≪엠피레엄≫</h5>
+<p><img src="600/030.jpg"/></p>
+<p>엠피레엄으로 이동하기 위해서는 이하의 퀘스트를 완료할 필요가 있습니다. 완료후에는 이슈가르드: 하층에 있는 에테라이트에서 모험자 거주구로 무료 전송 장치를 사용할 수 있습니다.</p>
+
+<div class="table">
+    <p class="quest heading">개방된 엠피레엄 (開かれしエンピレアム / Ascending to Empyreum)</p>
+    <p class="quest inner" id="level">어느 클래스/잡 레벨 60</p>
+    <p class="quest inner" id="place">이슈가르드: 하층(X:9.9 Y:11.8)</p>
+    <p class="quest inner" id="npc">곤두란보 (ゴンドゥランボー / Gondelimbaud)</p>
+    <p class="quest last" id="condition">메인퀘스트 '최후의 포효 (最期の咆哮 / Litany of Peace)'를 완료</p>
+</div>
+<p class="red">※ 패치 6.0 공개시점에서는 1구만 토지 구입의 사전답사를 위해 돌아다닐 수 있습니다. 토지나 아파트먼트의 구입은 패치 6.1에서 개시할 예정입니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>패치 6.1에서 추가 예정인 토지판매 추첨 시스템(가칭)의 준비를 위해, 정비중인 토지로 '이사'가 불가능해집니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>가구 디자인 콘테스의 응모작품으로부터 가구가 추가됩니다.</h4>
+<p>가구 디자인 콘테스트 2017에 대해서는 '<a href="https://sqex.to/i9u" target="_blank">여기(일본어)</a>', 가구 디자인 콘테스트 2019에 대해서는 '<a href="https://sqex.to/Pv0en" target="_blank">여기(일본어)</a>'를 참고해주세요.</p>
+<p>또한, 입상 이외의 작품을 참고로 한 가구도 추가됩니다.</p>
+<p><img src="600/031.jpg"/></p>
+<p><img src="600/032.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>새로운 가구가 추가됩니다.</h4>
+<p><img src="600/033.jpg"/></p>
+<p><img src="600/034.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>가구 '제작설비'의 효과를 받을 수 있는 레벨 상한이 70 → 80으로 올라갑니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>레벨 상한 개방에 따라, 레벨 90용 목인 조경품 '사베네어 더미 (サベネアンダミー / Thavnairian striking dummies)'가 추가됩니다.</h4>
+<p><img src="600/035.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver6">6.x</span></p>
+<h4>새로운 오케스트리온 악보가 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>아쿠아리움에서 기를 수 있는 물고기가 새롭게 추가됩니다.</h4>
+<p><img src="600/036.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>아쿠아리움의 '아쿠아리움 설정' 윈도우 → '사육 물고기 일람'에서 물고기가 크기별로 표시되게 됩니다.</h4>
+<p><img src="600/037.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>화분에서 기를 수 있는 새로운 씨앗이 추가됩니다.</h4>
+<p><img src="600/038.jpg"/></p>
+<p class="list">트리텔레이아 씨앗 씨앗 (トリテレイアの種 / Triteleia Seeds)</p>
+<div class="sub-list">
+    <p>트리텔레이아 씨앗 씨앗은 이하의 NPC에게서 구입할 수 있습니다.</p>
+    <ul>
+        <li>미스트 빌리지(X:11.0 Y:11.4) NPC '재료상'</li>
+        <li>라벤더 베드(X:11.9 Y:8.3) NPC '재료상'</li>
+        <li>고블렛 뷰트(X:10.9 Y:8.9) NPC '재료상'</li>
+        <li>시로가네(X:10.5 Y:12.1) NPC '재료상'</li>
+        <li>엠피레엄(X:10.2 Y:12.2) NPC '재료상'</li>
+        <li>아파트먼트 로비의 NPC '만물상'</li>
+        <li>그리다니아: 신시가(X:11.0 Y:11.2) NPC '꽃집 타니'</li>
+    </ul>
+</div>
+<p><br /></p>
+
+<h3><span>골드소서 관련 / The Manderville Gold Saucer</span></h3>
+<p><span class="ver2">2.x</span></p>
+<h4>MGP로 교환할 수 있는 경품이 새롭게 추가됩니다.</h4>
+<p><img src="600/039.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>트리플트라이어드에 이하의 추가가 있습니다.</h4>
+<p class="dia-list">새로운 카드가 추가됩니다.</p>
+<p class="dia-list">대전할 수 있는 NPC가 새롭게 추가됩니다.</p>
+<p class="dia-list">카드 대전 가능한 지역이 새롭게 추가됩니다.</p>
+<p><br /></p>
+
+<h3><span>그 외 / Miscellaneous</span></h3>
+<p><span class="ver5">5.x</span></p>
+<h4>새롭게 '비에라족(남성)'을 플레이어 캐릭터로 사용할 수 있게 됩니다.</h4>
+<p><img src="600/040.jpg"/></p>
+<p>메인퀘스트의 진행도에 관계없이, 캐릭터 작성시 / '환상약'을 사용한 캐릭터 편집시 / 리테이너의 외모 선택에서 '비에라족(남성)'을 선택할 수 있습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver5">5.x</span></p>
+<h4>'비에라족(여성)'용 헤어스타일이 여러개 추가됩니다.</h4>
+<p><img src="600/041.jpg"/></p>
+<p><img src="600/042.jpg"/></p>
+<p class="red">※ 로스갈족의 새 헤어스타일은 패치 6.1에서 추가 예정입니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>'휴란족(남성)'의 페이스 타입이 추가됩니다.</h4>
+<p><img src="600/043.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>'페이스' 시스템에 이하의 변경이 있습니다.</h4>
+<p class="dia-list">새로운 환체로 에스티니앙이 추가됩니다.</p>
+<p class="tab">에스티니앙은 '메인퀘스트: 효월의 피날레'를 진행하면 추가되고, 6.0 이후의 던전에만 데려갈 수 있습니다.<br/>
+<span class="red">※ 에스티니앙을 5.x 던전에 데려갈 수는 없습니다.</span></p>
+<p class="dia-list">플레이어의 레벨 상한 개방에 따라 환체의 레벨 상한이 개방됩니다.</p>
+<p class="tab">'메인퀘스트: 효월의 피날레'를 진행하면 환체의 레벨 상한이 90으로 올라갑니다.</p>
+<p class="dia-list">시나리오 모드의 개방 조건이 삭제됩니다.</p>
+<p class="tab">'모든 환체를 레벨 80으로 하여 개방'이라는 조건이 사라지고, 환체 모드의 개방조건과 동일하게 메인퀘스트 '칠흑의 뷔란즈'를 완료하면 개방되게 됩니다.</p>
+<p class="dia-list">환체의 '다음 레벨업까지 필요한 경험치'에 대하여, 수치의 비대화를 막기 위해 디노미네이션이 시행됩니다.</p>
+<p class="tab">본 변경에 따라, 인스턴스 던전 공략시에 보상 경험치량도 디노미네이션 후의 적절한 수치로 조정됩니다.<br/>
+<span class="red">※ 본 변경에 따른 데이터베이스 수정 작업을 위해, 패치 6.0 공개전에 축적중이던 경험치는 0으로 리셋됩니다.</span></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>쿠로의 공상장에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">'쿠로의 상장: 금상' '쿠로의 상장: 은상' '쿠로의 상장: 동상'으로 교환할 수 있는 포상이 추가/변경됩니다.</p>
+<p class="dia-list">대상 컨텐츠에 이하가 추가됩니다.</p>
+<div class="tab">
+    <p>배틀 클래스/잡이 1개 이상 레벨 90이 된 후에 받은 공상장에만 추가됩니다.</p>
+    <ul>
+        <li>희망의 포대: '탑'</li>
+        <li>극 하데스 토멸전</li>
+        <li>극 루비웨폰 파괴작전</li>
+        <li>극 시타델 보즈야 추억전</li>
+        <li>극 워리어 오브 라이트 토멸전</li>
+        <li>극 에메랄드웨폰 파괴작전</li>
+        <li>극 다이아웨폰 포획작전</li>
+        <li>레벨 81-90 던전</li>
+    </ul>
+</div>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>탐험수첩: 효월편이 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span></p>
+<h4>공략수첩에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">새로운 항목이 추가됩니다.</p>
+<div class="tab">
+    <p class="list">채집활동: 획득수 보너스<br/>
+        채굴사나 원예사로 채집 레벨에 가까운 채집으로 획득수 보너스를 30회 발생시킨다</p>
+    <p class="list">어부: 라지 사이즈<br/>
+        어부로 라지 사이즈의 수산물을 10회 낚아 올린다</p>
+    <p class="list">작살낚시: 라지 사이즈<br/>
+        작살낚시로 라지 사이즈의 수산물을 20회 채집한다</p>
+    <p class="list">군수품/보급품 조달: 납품 횟수1<br/>
+        군수품/보급픔 조달을 5회 납품한다</p>
+    <p class="list">군수품/보급품 조달: 납품 횟수2<br/>
+        군수품/보급품 조달을 10회 납품한다</p>
+</div>
+<p class="dia-list">이하의 항목이 삭제됩니다.</p>
+<div class="tab">
+    <p class="list">채집활동: HQ</p>
+    <p class="list">낚시: HQ</p>
+    <p class="list">작살낚시: HQ</p>
+    <p class="list">군수품/보급품 조달 횟수</p>
+    <p class="list">군수품/보급품 조달: HQ납품</p>
+</div>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>6.0 지역의 날씨를 확인할 수 있는 일기예보사가 배치됩니다.</h4>
+<p>또한, 5.0 이전 지역에 배치된 일기예보사에게서도 6.0 지역의 날씨를 확인할 수 있게 됩니다. 단, 일부 지역에 대해서는 특정 조건을 달성할 필요가 있습니다.</p>
+<p><br /></p>
+<p><br /></p>
+
+<h2><span>배틀 관련 / Battle System</span></h2>
+<p><span class="ver6">6.x</span></p>
+<h4>클래스/잡 레벨 상한이 90으로 올라갑니다.</h4>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 잡 '리퍼 (リーパー / Reaper)' '현자 (賢者 / Sage)'가 추가됩니다.</h4>
+<p>신규 잡 '리퍼' '현자'에 대응하는 클래스는 존재하지 않고, 레벨 70부터 시작합니다.</p>
+<p class="dia-list">리퍼 (롤: 근접물리DPS)</p>
+<p><img src="600/044.jpg"/></p>
+<p>리퍼를 개방하려면 이하의 퀘스트를 완료해야 할 필요가 있습니다.</p>
+<p><img src="600/045.jpg"/></p>
+<div class="table">
+    <p class="quest heading">리퍼된 자 (リーパーたる者 / The Killer Instinct)</p>
+    <p class="quest inner" id="level">파이터/소서러 레벨 70</p>
+    <p class="quest inner" id="place">울다하: 날회랑(X:12.8 Y:8.6)</p>
+    <p class="quest last" id="npc">초조한 모습의 하인 (焦った様子の使用人 / Flustered Attendant)</p>
+</div>
+
+<h5 class="green">≪액션/특성≫</h5>
+<p>액션/특성은 '<a href="https://jp.finalfantasyxiv.com/jobguide/battle/" target="_blank">여기(일본어)</a>'를 참고해주세요.</p>
+
+<p class="dia-list">현자 (롤: Healer)</p>
+<p><img src="600/046.jpg"/></p>
+<p>현자를 개방하려면 이하의 퀘스트를 완료해야 할 필요가 있습니다.</p>
+<p><img src="600/047.jpg"/></p>
+<div class="table">
+    <p class="quest heading">현자의 맹세 (賢者の誓い / Sage's Path)</p>
+    <p class="quest inner" id="level">파이터/소서러 레벨 70</p>
+    <p class="quest inner" id="place">림사 로민사: 하갑판층(X:9.4 Y:12.9)</p>
+    <p class="quest last" id="npc">북양풍 여성 (北洋風の女性 / Sharlayan Maiden)</p>
+</div>
+<h5 class="green">≪액션/특성≫</h5>
+<p>액션/특성은 '<a href="https://jp.finalfantasyxiv.com/jobguide/battle/" target="_blank">여기(일본어)</a>'를 참고해주세요.</p>
+<hr class="thin" />
+<p>신규 잡의 추가에 따라, 각 컨텐츠의 보물상자와 보상, 숍NPC의 판매 아이템, 교환NPC의 교환 아이템에 리퍼/현자 장비가 추가됩니다. 더불어, '리퍼' '현자'로는 초심자의 관을 이용할 수 없으며, 길드오더 초회 보상 보너스를 받을 수 없습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>기존 클래스/잡에 새로운 액션이 추가됩니다.</h4>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/WCVcgZ8dtD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>새롭게 추가된 액션은 '<a href="https://jp.finalfantasyxiv.com/jobguide/battle/" target="_blank">여기(일본어)</a>'를 참고해주세요.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>액션/특성에 조정이 있습니다.</h4>
+<p>각 클래스, 각 잡의 액션/특성의 변경점 및 롤 액션의 일람은 '<a href="https://jp.finalfantasyxiv.com/jobguide/battle/" target="_blank">여기(일본어)</a>'를 참고해주세요.</p>
+<p><br /></p>
+
+<p><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>배틀컨텐츠 돌입시나 전멸후 리스타트시 등 액션의 재사용 시간이 리셋될 때, 일부 잡 전용 리소스가 최대치까지 축적되는 사양이 추가됩니다.</h4>
+<h5 class="orange">나이트</h5>
+<p class="list">오우스 (オウス / Oath Gauge)</p>
+<h5 class="orange">현자</h5>
+<p class="list">아다갈 (アダーガル / Addersgall)</p>
+<p class="red">※ 전투불능시에 '개시지점으로 돌아간다' 윈도우가 표시되는 컨텐츠에서는 '개시지점으로 돌아간다'를 선택했을 때 축적됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>전투불능이 되었을 때, 일부 클래스/잡 전용 리소스가 리셋되지 않는 사양이 추가됩니다.</h4>
+<h5 class="orange">음유시인</h5>
+<p class="list">코다 심볼 (コーダシンボル / Coda)</p>
+
+<h5 class="orange">비술사/소환사</h5>
+<p class="list">루비 신비 (ルビーの神秘 / Ruby Arcanum)</p>
+<p class="list">토파즈의 신비 (トパーズの神秘 / Topaz Arcanum)</p>
+<p class="list">에메랄드의 신비 (エメラルドの神秘 / Emerald Arcanum)</p>
+
+<h5 class="orange">점성술사</h5>
+<p class="list">아스트로사인 (アストロサイン / Astrosign)</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>펫 액션에서 '프리 파이트'가 삭제됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>각 액션의 콤보 접수 시간이 증가합니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>리미트 브레이크에 이하의 변경이 있습니다.</h4>
+<p class="dia-list">리미트 브레이크를 사용할 때, 액션의 콤보가 중단되지 않게 됩니다.</p>
+<p class="dia-list">Healer롤의 리미트 브레이크 효과 범위가 30m → 50m로 확대됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>배틀에 관한 HP와 데미지 등의 수치에 대해, 수치의 비대화를 막기 위해 디노미네이션이 시행됩니다.</h4>
+<p>이에 따라 장비와 마테리아에 부여된 파라미터, 조리품과 약품의 효과, 몬스터의 HP와 공격력 등 배틀과 관련된 다양한 수치가 낮아지지만, 적정 레벨에서의 밸런스는 크게 변하지 않습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>배틀 파라미터에 이하의 변경이 있습니다.</h4>
+<p class="dia-list">무기의 물리 데미지 값이 동일 아이템 레벨 무기의 마법 데미지 값과 동일한 값으로 증가됩니다.</p>
+<p class="red tab">※ 이 변경에 따라, 액션의 위력이 조정됩니다.</p>
+<p class="dia-list">'의지력 (意思力 / Determination)'의 주는 데미지에의 영향력이 증가합니다.</p>
+<p class="dia-list">저레벨용 일부 장비에서 '의지력' '신앙' 파라미터 값이 '크리티컬' '다이렉트히트'와 같은 값으로 증가됩니다.</p>
+<p class="red tab">※ 수치의 변경은 극히 작아 밸런스에 영향은 없습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>일부 몬스터와 NPC가 실행하는 액션의 효과가 변경됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>배틀 클래스의 '다음 레벨업까지 필요한 경험치'에서 수치의 비대화를 막기 위해 디노미네이션이 시행됩니다.</h4>
+<p>본 변경에 따라 다음 수치도 디노미네이션 후의 적정한 값으로 조정됩니다.</p>
+<ul>
+    <li>몬스터 토벌시 획득 경험치</li>
+    <li>컨텐츠 완료시 보상 경험치</li>
+    <li>각종 컨텐츠 룰렛의 보상 경험치</li>
+    <li>길드리브의 보상 경험치</li>
+    <li>만족 데일리 퀘스트의 보상 경험치</li>
+    <li>데일리 몹헌트의 보상 경험치</li>
+    <li>공략수첩의 보상 경험치</li>
+</ul>
+<p class="red">※ 본 변경에 따른 데이터베이스 수정 작업을 위해, 패치 6.0 공개전에 축적중이던 경험치는 0으로 리셋됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>레벨 80 미만의 아머리 보너스가 1.5배 → 2배로 증가합니다.</h4>
+<p>아머리 보너스는 사용가능한 배틀 클래스 중 현재 클래스보다 '높은 레벨의 클래스'가 존재하는 경우에 발생하여, 몬스터 토벌 및 F.A.T.E. 보상으로 획득할 수 있는 경험치가 증가합니다. 레벨 80 이상은 종래대로 1.5배입니다.</p>
+<p><br /></p>
+
+<p><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>스테이터스 '잠재능력 (潜在能力 / True Self)'의 명칭이 '불굴의 투지 (不屈の闘志 / Indomitable Spirit)'로 변경되고, 헬프 텍스트가 조정됩니다.</h4>
+<p>본 스테이터스는 NPC를 조작하는 퀘스트 인스턴스 배틀에서 난이도 easy / very easy를 선택했을 때 부여됩니다. 효과에 변경은 없습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>레벨 상한의 개방에 따라 신설월드/우대월드에서의 보너스가 레벨 79까지 유효하게 됩니다.</h4>
+<p>신설월드/우대월드에서의 보너스에 대해서는 '<a href="https://jp.finalfantasyxiv.com/lodestone/playguide/option_service/world_transfer_service/population_balancing/" target="_blank">여기(일본어)</a>'를 참고해주세요.</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 몬스터가 추가됩니다.</h4>
+<p><img src="600/048.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 인스턴스 던전이 추가됩니다.</h4>
+<p><img src="600/049.jpg"/></p>
+<p><img src="600/050.jpg"/></p>
+<p><img src="600/051.jpg"/></p>
+<p><img src="600/052.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>인스턴스 던전에서 도중의 몬스터를 토벌했을 때 경험치를 획득할 수 없게 되고, 각 보스를 토벌했을 때 한꺼번에 획득할 수 있게 됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>이하의 던전에서 보물상자에서 입수할 수 있는 아이템이 조정됩니다.</h4>
+<p>필요한 평균 아이템레벨이 같은 던전에서는 같은 장비품을 입수할 수 있게 됩니다.</p>
+<h5 class="orange">필요한 평균 아이템레벨 45~</h5>
+<ul>
+    <li>고성 암다푸르 (邪教排撃 古城アムダプール / Amdapor Keep)</li>
+    <li>원더러 팰리스 (旅神聖域 ワンダラーパレス / The Wanderer's Palace)</li>
+</ul>
+<h5 class="orange">필요한 평균 아이템레벨 48~</h5>
+<ul>
+    <li>하우케타 저택(하드) [妖異屋敷 ハウケタ御用邸 (Hard) / Haukke Manor (Hard)]</li>
+    <li>시리우스 대등대 (怪鳥巨塔 シリウス大灯台 / Pharos Sirius)</li>
+    <li>카퍼벨 광산(하드) [騒乱坑道 カッパーベル銅山 (Hard) / Copperbell Mines (Hard)]</li>
+</ul>
+<h5 class="orange">필요한 평균 아이템레벨 55~</h5>
+<ul>
+    <li>고 암다푸르 시가 (腐敗遺跡 古アムダプール市街 / The Lost City of Amdapor)</li>
+    <li>브레이브록스의 야영지(하드) [盟友支援 ブレイフロクスの野営地 (Hard) / Brayflox's Longstop (Hard)]</li>
+    <li>하라타리 수련장(하드) [剣闘領域 ハラタリ修練所 (Hard) / Halatali (Hard)]</li>
+</ul>
+<h5 class="orange">필요한 평균 아이템레벨 70~</h5>
+<ul>
+    <li>탐타라의 묘소(하드) [惨劇霊殿 タムタラの墓所 (Hard) / The Tam-Tara Deepcroft (Hard)]</li>
+    <li>스톤비질(하드) [城塞奪回 ストーンヴィジル (Hard) / The Stone Vigil (Hard)]</li>
+    <li>할브레이커 아일 (財宝伝説 ハルブレーカー・アイル / Hullbreaker Isle)</li>
+</ul>
+<h5 class="orange">필요한 평균 아이템레벨 90~</h5>
+<ul>
+    <li>묵약의 탑 (幻龍残骸 黙約の塔 / The Keeper of the Lake)</li>
+    <li>원더러 팰리스(하드) [武装聖域 ワンダラーパレス (Hard) / The Wanderer's Palace (Hard)]</li>
+    <li>고성 암다푸르(하드) [邪念排撃 古城アムダプール (Hard) / Amdapor Keep (Hard)]</li>
+</ul>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>레벨 상한의 개방에 따라 레벨80던전, 레벨80토벌/토멸전, 5.x시리즈의 얼라이언스 레이드 던전에서 경험치를 획득할 수 있게 됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 토벌/토멸전이 추가됩니다.</h4>
+<p><img src="600/053.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver4">4.x</span></p>
+<h4>리오레우스 수렵전 및 극 리오레우스 수렵전에서 '리오레우스의 꼬리' 파괴에 성공했을 때 절단 표현이 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>환상 토멸전이 일시적으로 중단됩니다.</h4>
+<p>중단중에도 획득한 '환상잎'은 경품으로 교환이 가능합니다.<br/>
+<span class="red">※ 재개는 패치 6.1을 예정하고 있습니다.</span></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>이하의 컨텐츠에서 '웨폰 체스트(무기궤) [ウェポンチェスト（武器櫃）/ Weapon coffer]'를 획득할 수 있게 됩니다.</h4>
+<ul>
+    <li>진 가루다 / 진 타이탄 / 진 이프리트 / 선왕</li>
+    <li>극 리바이어선 / 극 라무 / 극 시바 / 극 비스마르크</li>
+    <li>극 라바나 / 나이츠 오브 라운드 / 극 니즈헤그</li>
+    <li>극 세피로스 / 극 소피아 / 극 즈루반 / 극 스사노오</li>
+    <li>극 신룡 / 극 백호 / 극 츠쿠요미 / 극 주작 / 극 청룡</li>
+    <li>극 티타니아 / 극 하데스 / 극 워리어 오브 라이트</li>
+    <li>극 루비웨폰 / 극 에메랄드웨폰 / 극 다이아웨폰</li>
+</ul>
+<p>'웨폰체스트(무기궤)'를 열었을 때의 잡에 따라 입수할 수 있는 아이템이 결정됩니다. 나이트로 '웨폰체스트(무기궤)'를 열었을 경우, '한손검'과 '방패'를 세트로 입수할 수 있습니다.</p>
+<p>또한, 이 변경에 따라, 지금까지 분해시에 만신재료를 획득할 수 있었던 한손검/방패의 분해 결과가 조정되어, 한손검에서는 만신재료를 획득하기 쉬워지고 방패에서는 만신재료를 획득할 수 없게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span></p>
+<h4>이하의 컨텐츠에서 보물상자에서 획득할 수 있었던 장비가 '체스트(궤) [チェスト（櫃）/ Gear coffer]'로 변경됩니다.</h4>
+<p class="list">대미궁 바하무트</p>
+<p class="list">대미궁 바하무트 영식</p>
+<p class="list">기공성 알렉산더 영식</p>
+<p class="list">차원의 틈새 오메가 영식</p>
+<p class="red">※ 대미궁 바하무트 / 대미궁 바하무트 영식 / 기공성 알렉산더 영식의 악세서리는 기존과 마찬가지로 장비품이 직접 드롭됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>이하의 컨텐츠에서 전멸후에 리스타트할 때에 플레이어를 강화하는 '초월하는 힘'이 발생하게 됩니다.</h4>
+<h5 class="green"><b>≪대상 컨텐츠≫</b></h5>
+<p>다이아웨폰 포획작전(ダイヤウェポン捕獲作戦 / The Cloud Deck)</p>
+<p>상기의 컨텐츠는 전멸후 리스타트 할 때마다 '최대HP / 주는 데미지 / 자신으로부터의 HP 회복 효과'가 10%씩 효과가 상승하여 최대 50% 상승 효과를 얻습니다. 다만, 전투시간이 3분미만으로 리스타트하는 경우에는 이 효과를 얻을 수 없습니다.</p>
+<h5 class="green"><b>≪대상 컨텐츠≫</b></h5>
+<p>극 다이아웨폰 포획작전 [極ダイヤウェポン捕獲作戦 / The Cloud Deck (Extreme)]</p>
+<p>상기의 컨텐츠는 전멸후 리스타트 할 때마다 '최대HP / 주는 데미지 / 자신으로부터의 HP 회복 효과'가 5%씩 효과가 상승하여 최대 25% 상승 효과를 얻습니다. 다만, 전투시간이 3분 미만으로 리스타트하는 경우에는 이 효과를 얻을 수 없습니다.</p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>희망의 동산 에덴 영식: 재생편에서 '초월하는 힘'의 효과가 강화됩니다.</h4>
+<p>컨텐츠에 돌입시부터 초월하는 힘이 발생하여, 최대HP / 주는 데미지량 / 자신으로부터의 HP회복효과량이 20% 상승합니다.<br/>
+<span class="red">※ 리스타트해도 효과는 증가하지 않습니다.</span></p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>레벨 90용의 새로운 목인토멸전이 6.0 지역에 추가됩니다.</h4>
+<p>레벨 90용 목인토멸전을 개방하려면, 이하의 서브퀘스트를 완료할 필요가 있습니다.</p>
+<p><img src="600/054.jpg"/></p>
+<div class="table">
+    <p class="quest heading">기술을 익히는 수련장 (技を修める調練場 / A Place to Train)</p>
+    <p class="quest inner" id="level">파이터/소서러 레벨 90</p>
+    <p class="quest inner" id="place">라자한(X:12.3 Y:10.7)</p>
+    <p class="quest inner" id="npc">강인한 성전사 (屈強な星戦士 / Hardy-looking Radiant)</p>
+    <p class="quest last" id="condition">'메인퀘스트: 효월의 피날레'의 최종 퀘스트, 서브퀘스트 '불굴의 그녀석을 쓰러뜨려라 (不屈なアイツを討ち倒せ / A Striking Opportunity)'를 완료</p>
+</div>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>'희망의 포대: "탑"'에서 컨텐츠 완료시에 획득할 수 있는 '불활성 성형 클러스터'의 주제한이 철폐됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 리스키몹이 추가됩니다.</h4>
+<p><img src="600/055.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>6.0지역을 대상으로 하는 몹헌트가 추가됩니다.</h4>
+<p>6.0지역에서 리스키몹 토벌시에는 5.x에 이어 '몹헌트 전리품 (モブハントの戦利品 / Sacks of Nuts)'을 입수할 수 있고, 각종 아이템으로 교환할 수 있습니다. 더불어, 6.0지역에서 몹헌트를 개방하려면, 이하의 서브퀘스트를 완료해야 할 필요가 있습니다.</p>
+<div class="table">
+    <p class="quest heading">길드쉽의 몹헌트(초급) [ギルドシップのモブハント（初級）/ The Hunt for Specimens]</p>
+    <p class="quest inner" id="level">파이터/소서러 레벨 80</p>
+    <p class="quest inner" id="place">올드 샤레안(X:11.2 Y:12.0)</p>
+    <p class="quest inner" id="npc">작은 몸집의 그리너 (小柄なグリーナー / Diminutive Gleaner)</p>
+    <p class="quest last" id="condition">'메인퀘스트: 효월의 피날레'를 특정 퀘스트까지 진행하고, 서브퀘스트 '이슈가르드의 리스키몹 (イシュガルドのリスキーモブ / Elite and Dangerous)'을 완료</p>
+</div>
+<p>또한, '몹헌트 전리품'은 이하의 NPC에게서 아이템으로 교환할 수 있습니다.</p>
+<p class="list">올드 샤레안(X:11.9 Y:13.2) NPC '쟈 라크샤이 (ジャ・ラクシャイ / J'lakshai)'</p>
+<p class="list">라자한(X:10.5 Y:7.4) NPC '윌메타 (ウィルメッタ / Wilmetta)'</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span></p>
+<h4>딥 던전에 관하여, 이하의 NPC에서 교환할 수 있는 아이템에 리퍼와 현자의 무기가 추가됩니다.</h4>
+<p class="list">흑의숲: 남부삼림(X:25.0 Y:20.6) NPC '에 우나 코토로 (エ・ウナ・コトロ / E-Una-Kotor)'</p>
+<p class="list">홍옥해(X:21.2 Y:9.3) NPC '해적무리의 자재담당 (海賊衆の資材係 / Confederate Custodian)'</p>
+<p><br /></p>
+
+<p><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>'금단의 땅 에우레카' '남방 보즈야 전선/자투노르 고원' '군힐드 딜브럼'에서 플레이어 리스트의 소트 전환에 '클래스/잡 순'이 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>'카스트룸 라쿠스 리토레 공성전' '기함 달 리아타 공략전 (旗艦ダル・リアータ攻略戦 /The Dalriada)'에서 공략중에 '데존'을 사용했을 때 표시되는 메세지가 조정됩니다.</h4>
+<p>공략을 중단하고 '남방 보즈야 전선/자투노르 고원'의 시작지점까지 돌아가는 것에 대한 확인이 표시됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>'군힐드 딜브럼'에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">신청후 대기시간이 최대 10분으로 변경됩니다.</p>
+<p class="tab">대기시간이 경과하면, 매칭 인원이 24명에 못미친 경우에도 컨텐츠에 돌입합니다.</p>
+<p class="dia-list">24인 미만으로 돌입한 경우, 참가자에게 초월하는 힘이 부여되게 됩니다.</p>
+<p class="tab">초월하는 힘의 효과량은 참전인원수가 적을수록 증가합니다.</p>
+<p class="red tab">※ 모든 '군힐드 딜브럼 영식'은 대상이 아닙니다.</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새롭게 '알라간 툼스톤: 경전 (アラガントームストーン：経典 / Allagan tomestones of aphorism)'이 추가됩니다.</h4>
+<p>알라간 툼스톤: 경전은 최대 2,000개까지 소지할 수 있고, 파이터/소서러 중 하나의 클래스/잡이 레벨 90에 도달한 후 획득 가능하게 됩니다.<br/>
+<span class="red">※ 알라간 툼스톤: 경전에 1주간 획득상한은 없습니다.<br/>
+※ 알라간 툼스톤: 경전의 상위가 되는 '알라간 툼스톤: 천문'은 '효월의 피날레' 정식 서비스 개시 후 약 4주 후에 추가 예정입니다.</span></p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>기존의 알라간 툼스톤에 이하의 변경이 있습니다.</h4>
+<p><img src="600/056.jpg"/></p>
+<h5 class="orange">알라간 툼스톤: 기담 / 묵시</h5>
+<p>각종 컨텐츠에서 획득할 수 없게 됩니다. 이에 따라, 각종 컨텐츠의 보상은 '알라간 툼스톤: 시학'과 새로 추가되는 '알라간 툼스톤: 경전'으로 변경됩니다.</p>
+<p>현재 소지하고 있는 '기담' 및 '묵시'는 유지되어, 모도나 레뷔난츠토르에 있는 NPC '오리아나'에게서 '시학'으로 교환할 수 있습니다. 또한, '기담' '묵시'로 교환할 수 있던 아이템은 다른 방법으로 입수할 수 있게 됩니다.</p>
+<h5 class="orange">알라간 툼스톤: 환상</h5>
+<p>캐릭터가 소지하고 있는 것은 모두 삭제됩니다.</p>
+<h5 class="orange">알라간 툼스톤: 시학</h5>
+<p>계속해서 레벨 80까지의 컨텐츠와 일부 컨텐츠 룰렛에서 획득할 수 있습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>컨텐츠 파인더에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">카테고리의 명칭과 카테고리에 포함되는 컨텐츠가 조정됩니다.</p>
+<p class="dia-list">컨텐츠 파인더 설정의 '인원수 제한 해제'가 '제한 해제'로 변경됩니다.</p>
+<p class="tab">명칭의 변경뿐으로, 기능에 변경은 없습니다.</p>
+<p class="dia-list">패치 5.x시리즈에서 추가된 컨텐츠가 제한 해제에 대응합니다.</p>
+<p class="dia-list">일부 컨텐츠에서 제한 해제를 설정하고 돌입했을 때, 특수한 버프 스테이터스 '초월하는 힘[강]'이 부여되게 됩니다.</p>
+<p class="tab">초월하는 힘[강]은 배틀 관련 디노미네이션의 영향으로 컨텐츠 공략 난이도가 패치 6.0공개전과 크게 달라지지 않도록 플레이어의 파라미터를 보정하는 버프 스테이터스입니다. 컨텐츠의 적정 레벨과 돌입시 플레이어의 레벨에 따라 보정량이 변동됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>레이드 파인더의 대상 컨텐츠가 패치 6.0에서 추가된 토벌/토멸전으로 변경됩니다.</h4>
+<p class="red">※ 절 바하무트 토멸전 / 절 알테마웨폰 파괴작전 / 절 알렉산더 토멸전은 레이드 파인더 그대로 변경은 없습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>컨텐츠 룰렛에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">각종 컨텐츠 룰렛 대상 컨텐츠가 변경됩니다.</p>
+<p class="dia-list">'컨텐츠 룰렛: 레벨50/60/70던전'과 '컨텐츠 룰렛:레벨80던전'이 통합되어, '컨텐츠룰렛:레벨50/60/70/80'으로 변경됩니다.</p>
+<p class="dia-list">컨텐츠 룰렛에서 입수할 수 있는 툼스톤의 종류와 양이 변경됩니다.</p>
+<div class="grid_general" style="grid-template-columns: 2fr 1fr;">
+    <p class="heading">컨텐츠 룰렛</p>
+    <p class="heading">툼스톤</p>
+    <p>컨텐츠 룰렛: 엑스퍼트</p>
+    <p>경전80</p>
+    <p>컨텐츠 룰렛: 레벨50/60/70/80</p>
+    <p>시학100 　경전120</p>
+    <p>컨텐츠 룰렛: 레벨링</p>
+    <p>경전100</p>
+    <p>컨텐츠 룰렛: 토벌/토멸전</p>
+    <p>경전60</p>
+    <p>컨텐츠 룰렛: 메인퀘스트</p>
+    <p>시학300 　경전100</p>
+    <p>컨텐츠 룰렛: 얼라이언스 레이드</p>
+    <p>시학120 　경전120</p>
+    <p>컨텐츠 룰렛: 노말레이드</p>
+    <p>시학80 　경전60</p>
+    <p>컨텐츠 룰렛: 멘토</p>
+    <p>경전30</p>
+    <p>데일리 챌린지: 프론트라인</p>
+    <p>경전50</p>
+</div>
+<p class="dia-list">컨텐츠 룰렛: 레벨링 / 컨텐츠 룰렛: 어라이언스 레이드의 부족롤 보너스 조건과 보상이 변경됩니다.</p>
+<h5 class="green">≪조건≫</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>신청시 클래스/잡이 레벨 70 이상</p>
+    <p class="space">🡺</p>
+    <p>신청시 클래스/잡이 레벨 80 이상</p>
+</div>
+
+<h5 class="green">≪보상≫</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>불활성 성형 클러스터<br />불활성 다면 클러스터 x 2</p>
+    <p class="space">🡺</p>
+    <p>불활성 꽃잎형 클러스터 (不活性花弁状クラスター / Cracked Anthocluster)<br />불활성 가지형 클러스터 (不活性樹枝状クラスター / Cracked Dendroclusters) x 2</p>
+</div>
+<p class="red">※ 불활성 꽃잎형 클러스터/불활성 가지형 클러스터는 패치 6.0에서 추가되는 새로운 마테리아로 교환할 수 있는 아이템입니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>파티에서 획득 경험치의 계산방법이 변경됩니다.</h4>
+<p><br /></p>
+
+<h3><span>PvP 전반 / PvP</span></h3>
+<p><span class="ver6">6.x</span></p>
+<h4>리퍼와 현자의 PvP 잡 액션이 추가됩니다.</h4>
+<p>PvP 잡 액션의 상세는 '<a href="https://jp.finalfantasyxiv.com/jobguide/pvp/" target="_blank">여기(일본어)</a>'를 참고해주세요.</p>
+<p><br /></p>
+
+<h3><span>더 피스트 / The Feast</span></h3>
+<p><span class="ver2">2.x</span></p>
+<h4>'더 피스트' 시즌 20이 종료되고, 프리시즌이 시작됩니다.</h4>
+<p>각 데이터센터의 솔로 랭킹 상위에 입상한 플레이어에게는, 시즌 종료후에 모그레터로 랭킹 순위 보상이 증정됩니다.<br/>
+<span class="red">※ 시즌 20 랭킹 순위 보상은 패치 6.0 공개시의 혼잡을 피하여 패치 6.01 이후에 전송됩니다. 즐겁게 기다려주시는 고객님께는 대단히 죄송하지만, 양해를 부탁드리겠습니다.</span></p>
+<p>또한, 시즌 종료시의 현 계급이 브론즈 이상이었던 플레이어는 울브즈제일 선착장(X:4.9 Y:5.7)에 있는 NPC '시즌 보상 지급관'에게 '늑대의 목걸이'를 받을 수 있습니다.</p>
+<p>보상에 관한 자세한 내용은 '<a href="https://sqex.to/Zh6" target="_blank">여기(일본어)</a>'를 참고해주세요.<br/>
+<span class="red">※ 시즌 20의 시즌 계급 보상을 받을 수 있는 기간은, 패치 6.1 공개까지입니다. 놓치지 않도록 주의해주세요.</span></p>
+<p><br /></p>
+<p><br /></p>
+
+<h2><span>아이템 관련 / Items</span></h2>
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>새로운 아이템이 추가됩니다.</h4>
+<p><img src="600/057.jpg"/></p>
+<p><img src="600/058.jpg"/></p>
+<p class="red">※ 패치 6.0에서는 레벨 상한의 개방에 따라 다수의 아이템이 추가됩니다. 이로 인해, 이번 패치노트에서는 아이템명과 상세는 기재하지 않습니다. 미리 양해 부탁드립니다.</p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>새로운 제작 레시피가 추가됩니다.</h4>
+<p class="red">※ 패치 6.0에서는 레벨 상한의 개방에 따라 다수의 제작 레시피가 추가됩니다. 이로 인해, 이번 패치노트에서는 제작 레시피는 기재하지 않습니다. 미리 양해 부탁드립니다.</p>
+<p><br /></p>
+
+<p><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>일부 제작 레시피에서 새롭게 간이제작이 가능해집니다.</h4>
+<p class="red">※ 제작 완료 이력이 표시되지 않는 레시피는 한번도 제작한 적이 없어도 간이제작이 가능합니다.</p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>일부 아이템을 판매 / 아이템 분해 / 희소품 조달에의 납품 할 수 있게 됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>아머리 체스트의 '메인 암 (メインアーム / Main Hand)' '반지 (指 / Rings)'의 최대 소지수가 50으로 증가합니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>메가마테리쟈의 상위 아이템 '오메가마테리쟈 (オメガマテリジャ / Grade IX)'와 엑스마테리쟈의 상위 아이템 '알테마테리쟈 (アルテマテリジャ / Grade X)'가 추가됩니다.</h4>
+<p class="red">※ 알테마테리쟈를 금단의 마테리아 장착에 이용할 경우, 2번째 이후에는 장착할 수 없습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>'마테리아 회수'에서 메가마테리쟈/엑스마테리쟈의 회수 성공률이 상승합니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>새롭게 '다크마타G8'이 추가됩니다.</h4>
+<p>또한, 다크마타계 아이템의 아이콘이 변경됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>경험치 획득량이 상승하는 아이템에서 아이템 상세 텍스트가 조정됩니다.</h4>
+<p>효과에 변경은 없습니다.</p>
+<p><img src="600/059.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>일부 아이템의 장착조건에 '리퍼' '현자'가 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>템페스트의 NPC '그레놀트 (グレノルト / Grenoldt)'에게서 획득하는 영혼장비에 '리퍼' '현자' 장비가 추가됩니다.</h4>
+<p>장비를 받으려면 해당 잡 레벨이 80 이상이며, 해당 롤의 레벨80 롤 퀘스트를 완료해야 할 필요가 있습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>일부 아이템의 매각 가격이 변경됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>이하의 아이템 명칭이 변경됩니다.</h4>
+<p class="blue">※ 연기교본: 피스트범프 (演技教本:フィストバンプ) → 연기교본: 주먹을 내민다 (演技教本:拳を突き出す), 일부 장비, 시즈널템 등 / 상세는 원문 참고</p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>이하의 아이템에서 RARE 속성이 제거됩니다.</h4>
+<p class="blue">※ 론카/딥섀도우/크리스타리움/크립토 라카 장비 중 반지류 / 상세는 원문 참고</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>특정 조건을 만족하면, 염색가능해지는 장비가 추가됩니다.</h4>
+<p>패치 6.0에서는 새롭게 추가되는 잡 전용 장비가 해당되어, 6.0 메인퀘스트/롤 퀘스트를 진행하면 염색할 수 있게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>이하의 아이템이 염색 가능해집니다.</h4>
+<p>이와 함께, 명칭에서 '웨자드' '[열 (劣)]'이 삭제됩니다.</p>
+<p class="blue">※ 웨자드(ウェザード / Weathered) 등 AF무기류 / 상세는 원문 참고</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>이하의 아이템에서 장비조건이 변경되어 성별에 관계없이 장착할 수 있게 됩니다.</h4>
+<ul>
+    <li>스프링 (スプリング/Spring) 스트로햇/드레스/스커트/슈즈</li>
+    <li>사베네어 (サベネアン / Thavnairian) 드레스/뷔스티에/암렛/타이즈/샌달</li>
+    <li>메이드 (メイド / Housemaid's) 브림/드레스2종/블루머/펌프스</li>
+    <li>메이드EX (メイドEX / Loyal Housemaid's) 브림/드레스2종/블루머/펌프스</li>
+    <li>하이하우스(ハイハウス / High House) 쥬스트콜</li>
+    <li>레인보우 (レインボー / Rainbow) 쥬스트콜</li>
+    <li>버틀러 (バトラー / Butler's) 모노클/쟈켓/글러브/슬랙스/게이터</li>
+    <li>버틀러EX (バトラーEX / Loyal Butler's) 모노클/쟈켓/글러브/슬랙스/게이터</li>
+</ul>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>배틀 관련 디노미네이션에 따라 이하의 변경이 있습니다.</h4>
+<p class="dia-list">배틀 파라미터가 부여된 장비의 성능이 변경됩니다.</p>
+<p class="dia-list">배틀 파라미터가 부여된 마테리아의 성능이 변경됩니다.</p>
+<p class="dia-list">배틀 클래스/잡용 일부 조리품/약품의 효과량이 변경됩니다.</p>
+<p class="dia-list">레벨 50이하의 배틀 클래스/잡용 일부 조리품/약품의 효과량이 증가합니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>무기강화 퀘스트로 획득할 수 있는 무기에 이하의 변경이 있습니다.</h4>
+<h5 class="orange">조디악웨폰 / 에우레카웨폰 / 레지스탕스 웨폰</h5>
+<p>각 서브 스테이터스별 디노미네이션이 시행되며, 적절한 값으로 자동변경됩니다.</p>
+<h5 class="orange">아니마웨폰</h5>
+<p>각 파라미터의 디노미네이션 실시 영향으로 서브 스테이터스의 압축이 있습니다. 이에 따라, 서브 스테이터스의 대체권이 부여되었습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>이하의 장비에서 '신앙 (信仰 / Piety)' 파라미터가 삭제됩니다.</h4>
+<p class="blue">※ 파라곤, 성부군, 노라 등 / 상세는 원문 참고</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>장비 가능 레벨이 50 이하인 탱크가 장비할 수 있는 파이터용 장비에서 방어력/마법 방어력이 상향됩니다.</h4>
+<p>본 변경에 따라, 탱크롤에서 '최강 (さいきょう / Recommended Gear)' 사용시에 장비 소지 상황에 따라 아이템레벨이 낮은 장비가 선택되지 않게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>내용물이 고정된 '체스트(궤)'에서 사용시에 입수할 수 있는 RARE 속성 아이템을 이미 소지하고 있는 경우, 그 '체스트(궤)'에 룻 할 수 없게 됩니다.</h4>
+<p>'웨폰체스트(무기궤)' 등 사용시의 클래스/잡에 따라 손에 넣는 아이템이 달라지는 것은 룻 가능합니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>'체스트(궤)' 사용시, 이미 같은 RARE 속성 아이템을 소지하고 있어 열리지 않은 경우, 에러메세지에 해당 아이템명이 표시되게 됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>허리방어구에 이하의 변경이 있습니다.</h4>
+<p class="dia-list">장비할 수 없게 됩니다.</p>
+<p class="dia-list">아머리체스트 칸이 삭제됩니다.</p>
+<p class="dia-list">수리할 수 없게 됩니다.</p>
+<p class="dia-list">마테리아를 정제할 수 없게 됩니다.</p>
+<p class="dia-list">마테리아를 장착할 수 없게 됩니다.</p>
+<p class="red tab">※ 장착된 마테리아는 분리할 수 있습니다.</p>
+<p class="dia-list">각종 샵/마켓보드에서 판매가 정지됩니다.</p>
+<p class="dia-list">마켓에 출품할 수 없게 됩니다.</p>
+<div class="tab">
+    <p>이미 시장에 출품된 허리방어구는 다음과 같이 처리됩니다.</p>
+    <p class="list">출품 목록에 표시되지 않아 살 수 없게 됩니다. 출품한 플레이어측에는 출품 목록에 표시된 상태 그대로이므로, 개별적으로 출품을 취소해야 합니다.</p>
+    <p class="list">마네킹의 세트판매에 허리방어구 아이템이 포함되어 있는 경우, 구입된 경우에도 출품자의 리테이너 출품건에 허리방어구만이 남기 때문에 개별적으로 출품을 취소해야 합니다.</p>
+</div>
+<p class="dia-list">다른 플레이어와 트레이드할 수 없게 됩니다.</p>
+<p class="dia-list">갑주사/재봉사/혁세공사의 레시피에서 제작이 불가능해집니다.</p>
+<p class="red tab">※ 삭제되는 레시피에 대해, 패치 6.0공개전에 제작하여 제작수첩에 기록을 남긴 경우, '어치브먼트 리스트'에 표시되는 '제작수첩에 기록을 남긴 수 (製作手帳に印を付けた数)'에의 카운트는 그대로입니다.<br/>
+※ 크래프터가 제작가능했던 허리띠는 레시피의 삭제에 따라 분해했을 때 배출되는 아이템이 변경됩니다.</p>
+<p class="dia-list">퀘스트 보상에서 삭제됩니다.</p>
+<p class="tab">일부 퀘스트는 보상이 변경됩니다.</p>
+<p class="dia-list">인스턴스 던전, 고난도 레이드, 얼라이언스 레이드의 보상에서 삭제됩니다.</p>
+<p class="tab">본 변경에 따라, 각 컨텐츠 내 보물상자의 내용물이 교체, 일부 아이템의 입수 확률/개수의 조정이 있습니다.</p>
+<p class="dia-list">트레저 헌트의 보상에서 삭제됩니다.</p>
+<p class="dia-list">길드리브의 보상에서 삭제됩니다.</p>
+<p class="dia-list">카테고리가 '배출중단 아이템 (排出停止アイテム / Unobtainable)'으로 변경되어 아이템 텍스트 등이 조정됩니다.</p>
+<p><img src="600/060.jpg"/></p>
+<p class="dia-list">길드리브 '제작직업'의 납품대상에서 삭제됩니다.</p>
+<p class="tab">허리보호구가 납품 대상이었던 길드리브는 명칭이 변경됩니다.</p>
+<p class="dia-list">그랜드컴퍼니 '군수품조달'의 납품대상에서 삭제됩니다.</p>
+<p class="tab">그랜드컴퍼니 '희소품조달 (稀少品調達 / Expert deliveries)'에서는 계속 납품할 수 있습니다.</p>
+<p class="dia-list">각종 '체스트(궤)'를 사용했을 때 입수할 수 없게 됩니다.</p>
+<p class="tab">'OO 벨트 체스트' 등 내용물이 허리띠뿐인 '체스트(궤)'는 사용할 수 없게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>이하에 해당하는 허리방어구가 자동으로 유실물관리인 (遺失物管理人 / Calamity salvager)에게 맡겨집니다.</h4>
+<p class="list">플레이어 또는 리테이너가 장비하고 있던 허리방어구</p>
+<p class="list">아머리체스트 내에 소지하고 있던 허리방어구</p>
+<p class="red">※ 유실물관리인에게 맡겨진 허리방어구는 패치 6.0 이전의 상태(마테리아 장착상황 등)를 인계합니다.<br/>
+※ 유실물관리인에게서 허리방어구 인출은 홈월드에서만 가능합니다.</p>
+<p><img src="600/061.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>허리방어구의 배출중단에 따라 일부 방어구 성능이 상향됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>허리방어구의 배출중단에 따라, 이하의 가구/조경품 제작 레시피에서 재료로 설정되어 있던 '로프 벨트 (ロープベルト / Rope Belt)'가 '밀짚(麦わら / Straw)x3'으로 변경됩니다.</h4>
+<p class="list">マズラヤマーリンの剥製 / Stuffed Mazlaya Marlin</p>
+<p class="list">シュラウド・オールドウェル / Dried Well</p>
+<p class="list">ハンギングドライヤー / Laundry Pole</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>허리방어구의 배출중단 및 레시피 삭제에 따라 이하의 어치브먼트 달성조건이 변경됩니다.</h4>
+<h5 class="orange">고결한 템플러 (高潔なるテンプラー / My Body Is a Temple)</h5><div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>템플러 체인코이프, 템플러 호버전, 템플러 솔렛, 템플러 터셋을 모두 입수한다</p>
+    <p class="space">🡺</p>
+    <p>템플러 체인코이프, 템플러 호버전, 템플러 솔렛을 모두 입수한다</p>
+</div>
+<h5 class="orange">용맹한 바카니아 (勇猛なるバッカニア / Dress Like a Pirate Day)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>바카니아 트라이콘, 바카니아 자켓, 바카니아 부츠, 바카니아 사슈를 모두 입수한다</p>
+    <p class="space">🡺</p>
+    <p>바카니아 트라이콘, 바카니아 자켓, 바카니아 부츠를 모두 입수한다</p>
+</div>
+
+<h5 class="orange">가벼운 할리퀸 (軽妙なるハーレクイン / A Mummer in Motley)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>할리퀸 캡, 할리퀸 액톤, 할리퀸 타이즈, 할리퀸 벨트를 모두 입수한다</p>
+    <p class="space">🡺</p>
+    <p>할리퀸 캡, 할리퀸 액톤, 할리퀸 타이즈를 모두 입수한다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 갑주사: 랭크1 (手帳好きの甲冑師：ランク1 / I Made That: Armorer I)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>갑주사의 레시피 중 40종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>갑주사의 레시피 중 30종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 갑주사: 랭크2 (手帳好きの甲冑師：ランク2 / I Made That: Armorer II)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>갑주사의 레시피 중 80종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>갑주사의 레시피 중 70종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 갑주사: 랭크3 (手帳好きの甲冑師：ランク3 / I Made That: Armorer III)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>갑주사의 레시피 중 170종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>갑주사의 레시피 중 160종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 갑주사: 랭크4 (手帳好きの甲冑師：ランク4 / I Made That: Armorer IV)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>갑주사의 레시피 중 230종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>갑주사의 레시피 중 210종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 갑주사: 랭크5 (手帳好きの甲冑師：ランク5 / I Made That: Armorer V)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>갑주사의 레시피 중 300종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>갑주사의 레시피 중 280종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 갑주사: 랭크6 (手帳好きの甲冑師：ランク6 / I Made That: Armorer VI)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>갑주사의 레시피 중 370종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>갑주사의 레시피 중 340종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 혁세공사1 (手帳好きの革細工師：ランク1 / I Made That: Leatherworker I)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>혁세공사의 레시피 중 50종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>혁세공사의 레시피 중 40종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 혁세공사2 (手帳好きの革細工師：ランク2 / I Made That: Leatherworker II)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>혁세공사의 레시피 중 110종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>혁세공사의 레시피 중 90종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 혁세공사3 (手帳好きの革細工師：ランク3 / I Made That: Leatherworker III)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>혁세공사의 레시피 중 220종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>혁세공사의 레시피 중 180종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 혁세공사4 (手帳好きの革細工師：ランク4 / I Made That: Leatherworker IV)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>혁세공사의 레시피 중 320종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>혁세공사의 레시피 중 260종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 혁세공사5 (手帳好きの革細工師：ランク5 / I Made That: Leatherworker V)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>혁세공사의 레시피 중 420종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>혁세공사의 레시피 중 360종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 혁세공사6 (手帳好きの革細工師：ランク6 / I Made That: Leatherworker VI)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>혁세공사의 레시피 중 550종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>혁세공사의 레시피 중 460종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 재봉사1 (手帳好きの裁縫師：ランク1 / I Made That: Weaver I)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>재봉사의 레시피 중 60종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>재봉사의 레시피 중 50종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 재봉사2 (手帳好きの裁縫師：ランク2 / I Made That: Weaver II)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>재봉사의 레시피 중 120종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>재봉사의 레시피 중 110종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 재봉사3 (手帳好きの裁縫師：ランク3 / I Made That: Weaver III)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>재봉사의 레시피 중 250종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>재봉사의 레시피 중 230종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 재봉사4 (手帳好きの裁縫師：ランク4 / I Made That: Weaver IV)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>재봉사의 레시피 중 350종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>재봉사의 레시피 중 320종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 재봉사5 (手帳好きの裁縫師：ランク5 / I Made That: Weaver V)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>재봉사의 레시피 중 470종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>재봉사의 레시피 중 440종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+
+<h5 class="orange">수첩을 좋아하는 재봉사6 (手帳好きの裁縫師：ランク6 / I Made That: Weaver VI)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>재봉사의 레시피 중 590종류를 제작하여 제작수첩에 기록을 남긴다</p>
+    <p class="space">🡺</p>
+    <p>재봉사의 레시피 중 550종류를 제작하여 제작수첩에 기록을 남긴다</p>
+</div>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>금단의 땅 에우레카: 파고스편에서 '스피드 벨트 (スピードベルト / Speed Belt)'의 배출이 중단되어, 동급 성능을 가진 반지 '브리츠링 (ブリッツリング / Blitzring)'이 배출되게 됩니다.</h4>
+<p>이에 따라, 유실물관리인에게서 '스피드 벨트'를 '브리츠링'으로 교환할 수 있게 됩니다.</p>   
+<p><br /></p>   
+
+<p><span class="ver5">5.x</span></p>
+<h4> 알라간 툼스톤과 스크립 등 각종 토큰으로 교환할 수 있는 아이템을 일괄적으로 취급하는 '종합샵 (総合ショップ / Sundry Splendors)'이 크리스타리움에 배치됩니다.</h4>
+<p>크리스타리움의 종합샵은 메인퀘스트 '칠흑의 뷔란즈'를 완료하면 개방됩니다.</p>
+<p><img src="600/062.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>'종합샵'에서 종류별 풀다운 리스트에 아이콘이 추가됩니다.</h4>
+<p><img src="600/063.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>알라간 툼스톤:환상/기담/묵시로의 교환장비에 이하의 변경이 있습니다.</h4>
+<p class="dia-list">지금까지 알라간 툼스톤 교환장비와 강화용 재료를 함께 전달하여 입수할 수 있었던 강화후의 장비를, 알라간 툼스톤: 시학으로의 교환으로만 입수할 수 있게 됩니다.</p>
+<p class="dia-list">강화전의 알라간 툼스톤 교환 장비/강화용 재료를, 숍/던전/리테이너 벤처 의뢰에서 입수할 수 없게 됩니다.</p>
+<p class="dia-list">강화전의 장비를 소지하고 있는 경우, 기존에 강화를 하던 숍에서 알라간 툼스톤: 시학 x 100으로 강화할 수 있게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>아니마 웨폰의 강화에 필요한 '크리스탈 샌드 (クリスタルサンド / Crystal Sand)'와 '경영성암 (硬霊性岩 / Umbrite)'의 최대수가 각 80개 → 각 60개로 변경됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>각 도시의 NPC '유실물관리인'에 재입수할 수 있는 아이템이 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>NPC '유실물관리인'에게 이하의 아이템을 재입수할 수 있는 조건이 변경됩니다.</h4>
+<h5 class="orange">울리쿰미 소 루키스 (ウルリクムミソー・ルキス / Ullikummi Lucis)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>클래스퀘스트 '아버지와 아들의 숙명 (父と子の宿命 / More Fierce than Fire)' 완료 및 어치브먼트 ' 엄선하는 크래프터 (コダワリのクラフター / Tool Time for the Hand)'를 획득</p>
+    <p class="space">🡺</p>
+    <p>클래스퀘스트 <span class="red">'청출어람 (出藍の誉れ / Saving Captain Gairhard)'</span> 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+</div>
+
+<h5 class="orange">발칸 해머 루키스 (ヴァルカンハンマー・ルキス / Vulcan Lucis)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>클래스퀘스트 '명공과 영웅 (名工と英雄 / Integrity)' 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+    <p class="space">🡺</p>
+    <p>클래스퀘스트 <span class="red">'마음을 싣고 날갯짓하는 검 (想い乗せ羽ばたく剣 / Waiting in the Winglet)'</span> 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+</div>
+
+<h5 class="orange">쿠르다레곤 해머 루키스 (クルダレゴンハンマー・ルキス / Kurdalegon Lucis)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>클래스퀘스트 '갑주사들 (甲冑師たち / The Pride of Vymelli)' 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+    <p class="space">🡺</p>
+    <p>클래스퀘스트 <span class="red">'신념의 갑주사 (信念の甲冑師 / Rivalry and Respect)'</span> 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+</div>
+
+<h5 class="orange">우르카구아리 해머 루키스 (ウルカグアリーハンマー・ルキス / Urcaguary Lucis)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>클래스퀘스트 '연을 맺는 것 (絆むすぶもの / Two Hearts Beat as One)' 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+    <p class="space">🡺</p>
+    <p>클래스퀘스트 <span class="red">'근원으로 통하는 진주 (源に通じる真珠 / Accept No Imitations)'</span> 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+</div>
+
+<h5 class="orange">핑가 나이프 루키스 (ピンガナイフ・ルキス / Pinga Lucis)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>클래스퀘스트 '끝없는 야심 (果てなき野心 / A Winter's Sale)' 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+    <p class="space">🡺</p>
+    <p>클래스퀘스트 <span class="red">'생명이 빛나는 명품 (命輝く名品 / Accept No Imitations)'</span> 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+</div>
+
+<h5 class="orange">크로트 니들 루키스 (クロートーニードル・ルキス / Clotho Lucis)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>클래스퀘스트 '전장의 승부복 (戦場の勝負服 / Never Leave without a Good-bye)' 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+    <p class="space">🡺</p>
+    <p>클래스퀘스트 <span class="red">'사랑 전사의 전투복 (恋愛戦士の戦闘服 / A Miner Reborn)'</span> 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+</div>
+
+<h5 class="orange">파라켈스스 아렌빅 루키스 (パラケルススアレンビック・ルキス / Paracelsus Lucis)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>클래스퀘스트 '마음 여기에 없고 (ココロココニアラズ / What Death Can Join Together)' 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+    <p class="space">🡺</p>
+    <p>클래스퀘스트 <span class="red">'한때의 기적 (ひとときの奇跡 / Momentary Miracle)'</span> 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+</div>
+
+<h5 class="orange">챤티코 프라이팬 루키스 (チャンティコフライパン・ルキス / Chantico Lucis)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>클래스퀘스트 '대접하는 레시피 (もてなすレシピ / The Spirit of Hospitality)' 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+    <p class="space">🡺</p>
+    <p>클래스퀘스트 <span class="red">'미식가 로로리토의 역습 (食通ロロリトの逆襲 / Revenge of the Chefsbane)'</span> 완료 및 어치브먼트 '엄선하는 크래프터' 획득</p>
+</div>
+
+<h5 class="orange">마몬 피크 루키스 (マモンピック・ルキス / Mammon Lucis)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>클래스퀘스트 '구원, 그리고 여행 (救い、そして旅立ち / The Hole Truth)' 완료 및 어치브먼트 '엄선하는 개더러 (コダワリのギャザラー / Tool Time for the Land)' 획득</p>
+    <p class="space">🡺</p>
+    <p>클래스퀘스트 <span class="red">'심연에 빛나는 날 (深淵に光差す日 / Canyon of Regret)'</span> 완료 및 어치브먼트 '엄선하는 개더러' 획득</p>
+</div>
+
+<h5 class="orange">라우니 하체트 루키스 (ラウニハチェット・ルキス / Rauni Lucis)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>클래스퀘스트 '연재 최종회 '종은 국경을 넘어' (連載最終回「種は国境を越えて / Seeds Know No Borders)' 완료 및 어치브먼트 '엄선하는 개더러' 획득</p>
+    <p class="space">🡺</p>
+    <p>클래스퀘스트 <span class="red">'숲을 가꾸는 자 (森を育む者 / Seeds of Hope)'</span> 완료 및 어치브먼트 '엄선하는 개더러' 획득</p>
+</div>
+
+<h5 class="orange">할시온 로드 루키스 (ハルシオンロッド・ルキス / Halcyon Rod Lucis)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>클래스퀘스트 '낚시 도락, 낙원에 모이다 (釣り道楽、楽園に集う / Carpe Diem)' 완료 및 어치브먼트 '엄선하는 개더러' 획득</p>
+    <p class="space">🡺</p>
+    <p>클래스퀘스트 <span class="red">'그물창고 위기일발 (網倉危機一髪 / So Long, and Thanks for All the Fish)'</span> 완료 및 어치브먼트 '엄선하는 개더러' 획득</p>
+</div>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>종합샵 및 이딜샤이어에 있는 NPC '히스메나'에게서 각종 하이마테리쟈 교환에 필요한 시학의 수가 800 → 100으로 변경됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>레뷔난츠토르(X:22.3 Y:6.7)에 있는 NPC '수집품 회수창구 (収集品回収窓口 / Collectable dealer)'가 삭제됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>크래프터/개더러 레벨 상한이 90으로 올라갑니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>크래프터/개더러의 '다음 레벨업까지 필요한 경험치'에서 수치의 비대화를 막기 위해 디노미네이션이 시행됩니다.</h4>
+<p>본 변경에 따라, 이하의 수치도 디노미네이션 후 적절한 수치로 조정됩니다.</p>
+<ul>
+    <li>제작/채집으로 얻는 경험치</li>
+    <li>각 컨텐츠의 보상 경험치</li>
+    <li>각종 엔지니어 매뉴얼의 보너스 획득 상한</li>
+    <li>각종 서바이벌 매뉴얼의 보너스 획득 상한</li>
+</ul>
+<p class="red">※ 본 변경에 따른 데이터베이스 수정 작업을 위해, 패치 6.0 공개전에 축적중이던 경험치는 0으로 리셋됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>레벨 90 이후 크래프터/개더러용으로 새로운 전용화폐 '크래프터 스크립: 자화 (クラフタースクリップ:紫貨 / Purple crafters' scrip)' '개더러 스크립: 자화 (ギャザラースクリップ:紫貨 / Purple gatherers' scrip)'가 추가됩니다.</h4>
+<p>'크래프터 스크립: 자화' '개더러 스크립: 자화'는 레벨 90부터 로웨나 상회거래의 수집품 납품 등으로 입수할 수 있고, 최대 2,000개까지 소지할 수 있습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>기존 크래프터 스크립/개더러 스크립에 이하의 추가/변경이 있습니다.</h4>
+<p><img src="600/064.jpg"/></p>
+
+<h5 class="orange">크래프터 스크립: 황화 / 개더러 스크립: 황화</h5>
+<p class="dia-list">컨텐츠에서 획득할 수 없게 됩니다.</p>
+<div class="tab">
+    <p>이에 따라, 각종 컨텐츠에서 획득할 수 있었던 '황화'는 '크래프터 스크립: 백화 / 개더러 스크립: 백화'로 변경되며, 획득량에 조정이 있습니다.</p>
+    <p class="red">※ 패치 6.0 이후, 모도나 레뷔난츠토르(X:22.4 Y:6.7)에 있는 NPC '스크립 교환창구'에서 '크래프터 스크립: 백화 / 개더러 스크립: 백화'로 교환할 수 있습니다.</p>
+</div>
+
+<p class="dia-list">아이템으로 교환할 수 없게 됩니다.</p>
+<div class="tab">
+    <p>패치 6.0에서는 현재 소지하고 있는 '황화'는 유지되지만, 각종 아이템으로 교환할 수 없습니다. 그런 아이템들 중 이하의 아이템 이외에는 '크래프터 스크립: 백화 / 개더러 스크립: 백화'로 교환할 수 있습니다.</p>
+    <p class="list">크래프터가 제작할 수 있는 아이템<br/>
+        <span class="red">※ 패치 6.0 이후에도 제작으로 입수할 수 있습니다.</span></p>
+    <p class="list">고블린컵 / 고블린다이스<br />
+        <span class="red">※ 패치 6.0 이후에는 입수 수단이 없어지지만, 계속하여 이딜샤이어(X:6.6 Y:7.4)에 있는 NPC '그린모크스 (グリンモクス / Grinmox )'에게서 장비 아이템과 마테리아로의 교환은 가능합니다.</span></p>
+</div>
+<h5 class="orange">크래프터 스크립: 적화 / 개더러 스크립: 적화</h5>
+<p>패치 6.0 공개에 맞추어 캐릭터가 소지하고 있는 것은 모두 삭제됩니다.</p>
+<h5 class="orange">크래프터 스크립: 백화 / 개더러 스크립: 백화</h5>
+<p>아이템 교환에 필요한 양이 조정됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>크래프터 스크립/개더러 스크립의 거래 창구에서 필요한 아이템에 액세스하기 쉽도록 스크립 종류와 레벨대 등을 기준으로 아이템이 정리되며, 계통과 종류를 선택할 수 있게 됩니다.</h4>
+<p><img src="600/065.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>이딜샤이어(X:5.7 Y:7.2)에 있는 NPC '특주품 교환창구 (特殊品交換窓口 / Splendors vendor)'에서 이하와 같이 카테고리가 정리됩니다.</h4>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p><span class="left">
+        ・크래프터용 도구 교환<br />
+        ・크래프터용 방어구 교환(1)<br />
+        ・크래프터용 방어구 교환(2)<br />
+        ・크래프터용 아이템 교환<br />
+        ・개더러용 도구 교환<br />
+        ・개더러용 방어구 교환<br />
+        ・개더러용 아이템 교환<br />
+        ・마테리아 교환<br />
+        ・증서 교환<br />
+        ・불필요한 아이템 회수
+    </span></p>
+    <p class="space">🡺</p>
+    <p><span class="left">
+        ・크래프터용 아이템 교환<br />
+        ・개더러용 아이템 교환      
+    </span></p>
+</div>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>각종 제작/채집 증서에 이하의 변경이 있습니다.</h4>
+<h5 class="orange">제작청화증서</h5>
+<p class="dia-list">이딜샤이어(X:5.7 Y:7.2)에 있는 NPC '특주품 교환창구'에서 입수할 수 없게 됩니다.</p>
+<p class="tab">크래프터 스크립으로의 입수는 계속 할 수 있습니다.<br/>
+<span class="red">※ 2021년 10월 18일(월)에 공개된 토픽에서 '제작 청화 증서'는 모든 NPC에게서 입수할 수 없게 된다고 기재되어 있습니다만, 각종 컨텐츠에서의 영향을 고려하여 다시 검토한 결과, 크래프터 스크립으로의 입수는 계속하기로 결정되었습니다.</span></p>
+<p class="dia-list">장비품으로 교환할 수 없게 됩니다.</p>
+<p class="tab">이러한 장비는 패치 6.0 이후 '크래프터 스크립: 백화'로 교환할 수 있습니다.</p>
+
+<h5 class="orange">채집청화증서</h5>
+<p class="dia-list">이딜샤이어(X:5.7 Y:7.2)에 있는 NPC '특주품 교환창구'에서 입수할 수 없게 됩니다.</p>
+<p class="tab">개더러 스크립의 입수는 계속 할 수 있습니다.</p>
+<p class="dia-list">장비품으로 교환할 수 없게 됩니다.</p>
+<p class="tab">이러한 장비는 패치 6.0 이후 '개더러 스크립: 백화'로 교환할 수 있습니다.</p>
+<h5 class="orange">제작적화증서 / 채집적화증서</h5>
+<p class="dia-list">아이템으로 교환할 수 없게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>아이템이나 액션의 효과로 CP/GP를 회복했을 때, 플라잉텍스트가 표시되게 됩니다.</h4>
+<p><img src="600/066.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>크래프터에 새로운 액션/특성이 추가됩니다.</h4>
+<h5 class="green">≪액션≫</h5>
+<h5 class="orange">모든 크래프터 클래스 공통</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">상세</p>
+    <p>상급가공 (上級加工 / Advanced Touch)</p>
+    <p>
+        획득레벨 84<br />
+        내구를 소비해 품질을 올린다.<br />
+        효율: 150<br />
+        성공률: 100%<br />
+        콤보조건: 중급가공<br />
+        콤보시 효과: 소비CP가 18이 된다
+    </p>
+    <p>일사불란 (一心不乱 / Heart and Soul)</p>
+    <p>
+        획득레벨 86<br />
+        [마이스터 전용 액션]<br />
+        '집중가공' '집중작업' '비결'이 상태에 관계없이 사용가능해진다.<br />
+        '고품질' '최고품질' 이외의 상태에서 '집중가공' '집중작업' '비결'을 사용하면, 효과가 종료된다.<br />
+        사용시 아이템 '크래프터의 제도용지'를 소비한다.<br />
+        [이 액션은 사용해도 턴이 경과하지 않음]<br />
+        [1회 제작/제작연습마다 1회만 사용가능]
+    </p>
+    <p>검약작업 (倹約作業 / Prudent Synthesis)</p>
+    <p>
+        획득레벨 88<br />
+        '검약' '장기검약' 효과중에는 사용불가.<br />
+        내구 소비를 반으로 억제하며, 작업을 진행한다.<br />
+        효율: 180<br />
+        성공률: 100%
+    </p>
+    <p>장인의 신기 (匠の神業 / Trained Finesse)</p>
+    <p>
+        획득레벨 90<br />
+        '이너콰이엇' 스택이 10일 때만 사용가능.<br />
+        내구를 소비하지 않고, 품질을 높인다.<br />
+        효율: 100<br />
+        성공률: 100%
+    </p>
+</div>
+
+<h5 class="green">≪특성≫</h5>
+<h5 class="orange">모든 크래프터 클래스 공통</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">상세</p>
+    <p>이너콰이엇 (インナークワイエット / Inner Quiet)</p>
+    <p>
+        획득레벨 11<br />
+        품질을 올리는 액션을 성공할 때마다 '이너콰이엇'을 부여한다.<br />
+        '이너콰이엇'의 스택수 1마다 액션에 의한 품질상승량이 10% 상승한다.<br />
+        최대스택수: 10
+    </p>
+    <p>모범작업 마스터리 (模範作業マスタリー / Careful Synthesis Mastery)</p>
+    <p>
+        획득레벨 82<br />
+        모범작업의 효율이 180으로 상승한다.
+    </p>
+    <p>기초작업 마스터리 (下地作業マスタリー / Groundwork Mastery)</p>
+    <p>
+        획득레벨 86<br />
+        기초작업의 효율이 360으로 상승한다.
+    </p>
+</div>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span></p>
+<h4>이하의 크래프터 액션이 삭제됩니다.</h4>
+<h5 class="orange">모든 크래프터 클래스 공통</h5>
+<ul><li>インナークワイエット / Inner Quiet</li>
+    <li>アート・オブ・エレメンタル / Name of the Elements</li>
+    <li>ブランド・オブ・エレメンタル / Brand of the Elements</li>
+    <li>専心加工 / Patient Touch</li>
+</ul>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>크래프터 액션에 이하의 조정이 있습니다.</h4>
+<h5 class="orange">모든 크래프터 클래스 공통</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">변경점</p>
+    <p>비엘고의 축복 (ビエルゴの祝福 / Byregot's Blessing)</p>
+    <p>
+        ・이너콰이엇이 액션에서 특성으로 변경됨에 따라, 다음처럼 효과가 변경됩니다<br />
+        ・사용조건: '이너콰이엇' 스택 1 이상<br />
+        내구를 소비하여 품질을 올린다.<br />
+        '이너콰이엇'의 스택수 1마다 효율이 20 상승한다.<br />
+        사용후에 '이너콰이엇'의 효과는 종료된다.<br />
+        효율: 100 (최대 300)<br />
+        성공률: 100%
+    </p>
+    <p>진가 (真価 / Reflect)</p>
+    <p>
+        ・소비CP가 24 → 6으로 변경됩니다.<br />
+        ・추가효과가 '이너콰이엇 스택 +1 (최대10)'으로 변경됩니다.<br />
+    </p>
+    <p>장인의 조업 (匠の早業 / Trained Eye)</p>
+    <p>
+        [고난도 레시피에 대해서는 사용할 수 없음]이 추가됩니다.
+    </p>
+</div>
+<p class="red">※ '진가'의 품질상승으로 인해 이너콰이엇 스택이 +1되고, 추가효과로도 +1되기 때문에, 실질적으로 +2의 상태가 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>이하의 '한손검' '방패'를 제작하는 레시피가 삭제되고, 한손검/방패를 입수할 수 있는 세트 아이템 제작 레시피가 추가됩니다.</h4>
+<h5 class="green">≪삭제되는 레시피≫</h5>
+<h5 class="orange">대장장이</h5>
+<ul>
+    <li>レヴィン・サンダーストライク / Mighty Thunderstrike</li>
+    <li>エクスパンスソード / Endless Expanse Sword</li>
+    <li>ハイヴシャムシール / Dead Hive Shamshir</li>
+    <li>ソード・オブ・ラウンド / Sword of The Round</li>
+    <li>ブレード・オブ・フィーンド / Blade of The Fiend</li>
+    <li>ホードブレード / Seeing Horde Blade</li>
+    <li>ブレード・オブ・ゴッデス / Blade of The Goddess</li>
+    <li>ブレード・オブ・デモン / Blade of The Demon</li>
+    <li>神龍直剣【輝】 / Shinryu's Ephemeral Longsword</li>
+    <li>月読命直剣【輝】 / Tsukuyomi's Moonlit Longsword</li>
+    <li>朱雀直剣【輝】 / Suzaku's Flame-kissed Longsword</li>
+    <li>青龍直剣【輝】 / Seiryu's Sanctified Longsword</li>
+    <li>白虎石剣【輝】 / Byakko's Enspirited Stone Sword</li>
+    <li>ミソスRE / Augmented Misos</li>
+</ul>
+<h5 class="orange">갑주사</h5>
+<ul>
+    <li>レヴィン・サンダーヘッド / Mighty Thunderhead</li>
+    <li>エクスパンスシールド / Endless Expanse Shield</li>
+    <li>ハイヴスクトゥム / Dead Hive Scutum</li>
+    <li>シールド・オブ・ラウンド / Shield of The Round</li>
+    <li>シールド・オブ・フィーンド / Shield of The Fiend</li>
+    <li>ホードシールド / Seeing Horde Shield</li>
+    <li>シールド・オブ・ゴッデス / Shield of The Goddess</li>
+    <li>シールド・オブ・デモン / Shield of The Demon</li>
+    <li>神龍大盾【輝】 / Shinryu's Ephemeral Shield</li>
+    <li>月読命之盾【輝】 / Tsukuyomi's Moonlit Shield</li>
+    <li>朱雀大盾【輝】 / Suzaku's Flame-kissed Shield</li>
+    <li>青龍大盾【輝】 / Seiryu's Sanctified Shield</li>
+    <li>白虎大盾【輝】 / Byakko's Enspirited Shield</li>
+    <li>ユラベーヤRE / Augmented Eulabeia</li>
+</ul>
+<h5 class="green">≪추가되는 레시피≫</h5>
+<h5 class="orange">대장장이/갑주사</h5>
+<ul>
+    <li>レヴィン・ナイトギア / Paladin's Levin Arms</li>
+    <li>エクスパンス・ナイトギア / Paladin's Endless Expanse Arms</li>
+    <li>ハイヴ・ナイトギア / Paladin's Dead Hive Arms</li>
+    <li>ナイトギア・オブ・ラウンド / Paladin's Arms of the Round</li>
+    <li>ナイトギア・オブ・フィーンド / Paladin's Fiend Arms</li>
+    <li>ホード・ナイトギア / Paladin's Horde Arms</li>
+    <li>ナイトギア・オブ・ゴッデス / Paladin's Goddess Arms</li>
+    <li>ナイトギア・オブ・デモン / Paladin's Demon Arms</li>
+    <li>神龍騎士装具【輝】 / Shinryu's Ephemeral Arms</li>
+    <li>白虎騎士装具【輝】 / Byakko's Enspirited Arms</li>
+    <li>月読命騎士装具【輝】 / Tsukuyomi's Moonlit Arms</li>
+    <li>朱雀騎士装具【輝】 / Suzaku's Flame-kissed Arms</li>
+    <li>青龍騎士装具【輝】 / Seiryu's Sanctified Arms</li>
+    <li>ハーデス・ナイトギアRE / Paladin's Hades Arms</li>
+</ul>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>제작수첩에 이하의 변경이 있습니다.</h4>
+<p class="dia-list">레벨 레시피/스페셜 레시피의 카테고리 정렬순서가 레벨이 높은 순서로 변경됩니다.</p>
+<p class="dia-list">재료 아이템의 서브커맨드에서 마켓보드의 북마크를 등록할 수 있게 됩니다.</p>
+<p class="tab">서브커맨드를 표시하면, 북마크 등록건수를 확인할 수 있습니다.</p>
+<p><img src="600/067.jpg"/></p>
+<p class="dia-list">스페셜 레시피 '하우징' 내 카테고리가 변경됩니다.</p>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p><span class="left">
+        ・하우징(1)<br />
+        ・하우징(2)
+    </span></p>
+    <p class="space">🡺</p>
+    <p><span class="left">
+        ・내장/외장<br />
+        ・조경품<br />
+        ・가구<br />
+        ・가구(받침/깔개)<br />
+        ・가구(탁상)<br />
+        ・가구(벽걸이)<br />
+        ・그 외
+    </span></p>
+</div>
+<p class="dia-list">HQ아이템을 사용하면 초기품질에 영향을 주는 재료에 마크가 표시되게 됩니다.</p>
+<p><img src="600/068.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>이하의 스카이스틸 툴 강화용 재료는 NQ아이템을 납품하여도 도구를 강화할 수 있게 됩니다.</h4>
+<ul>
+    <li>改良用の黒曜石 / Oddly Specific Obsidian</li>
+    <li>改良用のラテックス / Oddly Specific Latex</li>
+    <li>智慧珊瑚 / Thinker's Coral</li>
+    <li>改良用のダークマター / Oddly Specific Dark Matter</li>
+    <li>改良用のアンバー / Oddly Specific Amber</li>
+    <li>竜骨貝 / Dragonspine</li>
+    <li>改良用のダークチェスナット原木 / Oddly Specific Dark Chestnut Log</li>
+    <li>改良用の古代原木 / Oddly Specific Primordial Log</li>
+    <li>改良用のショール / Oddly Specific Schorl</li>
+    <li>改良用の古代鉱石 / Oddly Specific Primordial Ore</li>
+    <li>梅花貝 / Petal Shell</li>
+    <li>アラガンハンター / Allagan Hunter</li>
+    <li>最終改良用のバーチ原木 / Oddly Delicate Birch Log</li>
+    <li>最終改良用のジェード原石 / Oddly Delicate Raw Jade</li>
+</ul>
+<p class="red">※ 납품 대상의 HQ아이템을 소지하고 있는 경우에는 HQ 아이템을 납품해도 도구를 강화할 수 있습니다.</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>수집품거래/이슈가르드 부흥납품에서 플레이어 레벨이 80 이상인 경우, 레벨 80이하의 아이템을 납품했을 때 획득 경험치 상한이 1,000이 됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>수집품 거래에서 수집가치가 낮은 물고기를 납품할 수 있게 됩니다. 아울러, 납품시의 획득 경험치/스크립 양이 조정됩니다.</h4>
+<p>보상량은 지금까지대로 수집가치에 따라 단계적으로 바뀝니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>단골거래에서 획득할 수 있는 크래프터/개더러 스크립과 획득량이 변경됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>단골거래에서 수집가치가 낮은 물고기를 납품할 수 있게 됩니다.</h4>
+<p>보상량은 지금까지대로 수집가치에 따라 단계적으로 바뀝니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>제작과 관련된 공수나 품질에서 수치의 비대화를 막기 위해 디노미네이션이 시행됩니다.</h4>
+<p>이에 따라 기존 레시피의 필요공수/품질상한, 제작중 공수/품질 상승량, 수집품의 수집가치 등 제작에 관련된 다양한 수치가 작아지지만, 적정 레벨에 따른 밸런스는 크게 변하지 않습니다.</p>
+<p><br /></p>
+
+<p><span class="ver5">5.x</span></p>
+<h4>'리스프렌던트 툴의 O차 가공재료'에서 패치 6.0 공개전에 제작된 아이템의 명칭이 '리스프렌던트 툴의 O차 가공재료[구] (リスプレンデントツールの〇次加工部材【旧】 / Obsolete resplendent tool components)'로 변경됩니다.</h4>
+<p>패치 6.0 공개전에 제작한 '리스프렌던트 툴의 O차 가공재료[구]'으로도 계속하여 유르모아(X:11.6 Y:10.9)에 있는 NPC '림베스 (リンベス / Limbeth)'에 납품하여 강화재료로 교환할 수 있습니다.<br/>
+<span class="red">※ 납품시 '리스프렌던트 툴의 O차 가공재료[구]'가 일정 수집가치에 도달해야 할 필요가 있습니다.</span></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>개더러에 새로운 액션/특성이 추가됩니다.</h4>
+<h5 class="green">≪액션≫</h5>
+<h5 class="orange">채굴사</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">상세</p>
+    <p>부강한 선물1 (富鉱なる賜物I / Mountaineer's Gift I)</p>
+    <p>
+        획득레벨 15<br />
+        획득수 보너스 발생률을 10% 올린다.<br />
+        단, 획득수 보너스 발생률 1% 이상의 아이템이 대상.
+    </p>
+    <p>부강한 선물2 (富鉱なる賜物II / Mountaineer's Gift II)</p>
+    <p>
+        획득레벨 50<br />
+        획득수 보너스 발생률을 30% 올린다.<br />
+        단, 획득수 보너스 발생률 1% 이상의 아이템이 대상.
+    </p>
+    <p>날달의 복음 (ナルザルの福音 / Nald'thal's Tidings)</p>
+    <p>
+        획득레벨 81<br />
+        획득수 보너스 발생시 획득수를 1 올린다.
+    </p>
+    <p>밸류포커스 (バリューフォーカス / Collector's Focus)</p>
+    <p>
+        획득레벨 85<br />
+        밸류포커스 발생률을 1.75배 상승시킨다.
+    </p>
+    <p>이지흥기 (理知興起 / Wise to the World)</p>
+    <p>
+        획득레벨 90<br />
+        채집장소의 채집횟수/내구를 1 회복한다.<br />
+        발동조건: '이지흥기 실행가능' 효과중
+    </p>
+</div>
+
+<h5 class="orange">원예사</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">상세</p>
+    <p>비옥한 사물1 (肥沃なる賜物I / Pioneer's Gift I)</p>
+    <p>
+        획득레벨 15<br />
+        획득수 보너스 발생률을 10% 올린다.<br />
+        단, 획득수 보너스 발생률 1% 이상의 아이템이 대상.
+    </p>
+    <p>비옥한 사물2 (肥沃なる賜物II / Pioneer's Gift II)</p>
+    <p>
+        획득레벨 50<br />
+        획득수 보너스 발생률을 30% 올린다.<br />
+        단, 획득수 보너스 발생률 1% 이상의 아이템이 대상.
+    </p>
+    <p>노피카의 복음 (ノフィカの福音 / Nophica's Tidings)</p>
+    <p>
+        획득레벨 81<br />
+        획득수 보너스 발생시 획득수를 1 올린다.
+    </p>
+    <p>밸류포커스 (バリューフォーカス / Collector's Focus)</p>
+    <p>
+        획득레벨 85<br />
+        밸류포커스 발생률을 1.75배 상승시킨다.
+    </p>
+    <p>이지흥기 (理知興起 / Wise to the World)</p>
+    <p>
+        획득레벨 90<br />
+        채집장소의 채집횟수/내구를 1 회복한다.<br />
+        발동조건: '이지흥기 실행가능' 효과중
+    </p>
+</div>
+
+<h5 class="orange">어부</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">상세</p>
+    <p>사리악의 은총 (サリャクの恩寵 / Thaliak's Favor)</p>
+    <p>
+        획득레벨 15<br />
+        GP를 150 회복한다.<br />
+        발동조건: '빅피셔' 3소비
+    </p>
+    <p>미끼 기술 (熟漁の技 / Makeshift Bait)</p>
+    <p>
+        획득레벨 48<br />
+        일정시간, 낚아올린 물고기가 노말사이즈여도 생미끼낚시를 실행가능한 상태가 된다.<br />
+        발동조건: '빅피셔' 5소비<br />
+        효과시간: 145초<br />
+        단, 직전에 낚은 물고기에는 효과 없음.
+    </p>
+    <p>선어안 (選魚眼 / Vital Sight)</p>
+    <p>
+        획득레벨 64<br />
+        물고기를 노리는 히트박스를 크게 만든다.<br />
+        그 어장에 채집하고 있는 동안 효과가 계속된다.<br />
+        발동조건: '빅피셔' 2소비
+    </p>
+    <p>홀드브레스 (ホールドブレス / Baited Breath)</p>
+    <p>
+        획득레벨 75<br />
+        숨을 죽이고 기척을 감춰 경계도를 낮춘다.<br />
+        발동조건: 경계도가 일정미만(경계도 게이지가 점멸상태가 아님)
+    </p>
+    <p>대물 노림 (大物狙い / Prize Catch)</p>
+    <p>
+        획득레벨 81<br />
+        다음번에 낚아올리는 물고기가 반드시 라지사이즈가 된다.<br />
+        낚시 성공시에 효과가 끊긴다.<br />
+        생미끼 찬스시에 사용하면, 찬스를 자동으로 캔슬한다.
+    </p>
+    <p>일렉트릭 커런트 (エレクトリックカレント / Electric Current)</p>
+    <p>
+        획득레벨 85<br />
+        작살낚시터에 전류를 흘려 출현하고 있는 물고기를 모두 획득한다.<br />
+        실행시 경계도가 일정량 상승한다.<br />
+        상승한 경계도는 히트수가 높을수록 감소한다.<br />
+        한 어장에서 1번만 실행가능.<br />
+        발동조건: 히트 10 달성
+    </p>
+    <p>트리플 후킹 (トリプルフッキング / Triple Hook)</p>
+    <p>
+        획득레벨 90<br />
+        한번에 3개 이상의 물고기를 낚아올린다.<br />
+        획득력에 따라 획득수가 증가한다.<br />
+        증가수는 물고기에 따라 다르며, 효과가 없는 물고기도 존재한다.
+    </p>
+</div>
+
+<h5 class="green">≪특성≫</h5>
+<h5 class="orange">채굴사</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">상세</p>
+    <p>GP회복량 업3 (GP回復量アップIII / Enhanced GP Regeneration III)</p>
+    <p>
+        획득레벨 83<br />
+        GP의 자연회복량이 베이스치에서 3 상승한다. 더불어 채집성공시 GP회복량이 베이스치에서 1 상승한다.
+    </p>
+    <p>석공의 이치 효과 업 (石工の理効果アップ / Enhanced Solid Reason)</p>
+    <p>
+        획득레벨 90<br />
+        자신에게 '이지흥기 실행가능'을 부여한다.<br />
+        발동조건: '석공의 이치' 실행시 (발동확률 50%)
+    </p>
+</div>
+
+<h5 class="orange">원예사</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">상세</p>
+    <p>GP회복량 업3 (GP回復量アップIII / Enhanced GP Regeneration III)</p>
+    <p>
+        획득레벨 83<br />
+        GP의 자연회복량이 베이스치에서 3 상승한다. 더불어 채집성공시 GP회복량이 베이스치에서 1 상승한다.
+    </p>
+    <p>노농의 지식 효과 업 (老農の知効果アップ / Enhanced Ageless Words)</p>
+    <p>
+        획득레벨 90<br />
+        자신에게 '이지흥기 실행가능'을 부여한다.<br />
+        발동조건: '노농의 지식' 실행시 (발동확률 50%)
+    </p>
+</div>
+
+<h5 class="orange">어부</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">상세</p>
+    <p>빅피셔 (ビッグフィッシャー / Angler's Art)</p>
+    <p>
+        획득레벨 15<br />
+        자신에게 '빅피셔'를 부여한다.<br />
+        발동조건: 라지사이즈 획득시 (일정확률)<br />
+        라지사이즈를 획득했을 때, 일정확률로 스테이터스 '빅피셔'를 부여한다.<br />
+        단, 낚시로 획득했을 경우와 작살로 획득했을 경우에 확률이 다르다.<br />
+        최대스택수: 10
+    </p>
+    <p>GP회복량 업3 (GP回復量アップIII / Enhanced GP Regeneration III)</p>
+    <p>
+        획득레벨 83<br />
+        GP의 자연회복량이 베이스치에서 3 상승한다.
+    </p>
+    <p>공중 낚시 (宙泉釣り / Starfishing)</p>
+    <p>
+        획득레벨 89<br />
+        공중을 낚시터로 하여 캐스트 실행가능하게 한다.
+    </p>
+</div>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>이하의 개더러 액션/특성이 삭제됩니다.</h4>
+<h5 class="green">≪액션≫</h5>
+<h5 class="orange">채굴사</h5>
+<ul>
+    <li>プレパレーション / Preparation</li>
+    <li>アナース / Unearth</li>
+    <li>彫工の力 / Deep Vigor</li>
+    <li>アナースII / Unearth II</li>
+    <li>ドレッジ / Dredge</li>
+    <li>ドレッジII / Dredge II</li>
+    <li>アナースIII / Unearth III</li>
+    <li>ナルザルの導き / Nald'thal's Counsel</li>
+    <li>突貫採集 / Pick Clean</li>
+    <li>山師の技巧 / Mind of the Mountaineer</li>
+</ul>
+<h5 class="orange">원예사</h5>
+<ul>
+  <li>プレパレーション / Preparation</li>
+  <li>リーフターン / Leaf Turn</li>
+  <li>きこりの腕 / Brunt Force</li>
+  <li>リーフターンII / Leaf Turn II</li>
+  <li>プルーン / Prune</li>
+  <li>プルーンII / Prune II</li>
+  <li>リーフターンIII / Leaf Turn III</li>
+  <li>ノフィカの導き / Nophica's Counsel</li>
+  <li>突貫採集 / Pick Clean</li>
+  <li>開拓者の技巧 / Mind of the Pioneer</li>
+</ul>
+<h5 class="orange">어부</h5>
+<ul>
+    <li>銛先 / Gig Head</li>
+    <li>漁師の勘 / Calm Waters</li>
+    <li>バウンティフルキャッチ / Bountiful Catch</li>
+    <li>セイムギギング / Identical Gig</li>
+</ul>
+<h5 class="green">≪특성≫</h5>
+<h5 class="orange">채굴사</h5>
+<ul><li>アナースマスタリー / Unearth Mastery</li></ul>
+<h5 class="orange">원예사</h5>
+<ul><li>リーフターンマスタリー / Leaf Turn Mastery</li></ul>
+<h5 class="orange">어부</h5>
+<ul><li>フィッシュウィスパラー / Fish Whisperer</li></ul>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>이하의 개더러 액션/특성에 조정이 있습니다.</h4>
+<h5 class="green">≪액션≫</h5>
+<h5 class="orange">채굴사</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">변경점</p>
+    <p>석공의 이치 (石工の理 / Solid Reason)</p>
+    <p>특성 '석공의 이치 효과 업'에 의해 자신에게 '이지흥기 실행가능'을 일정 확률로 부여하는 효과가 추가됩니다.</p>
+    <p>수집품 채집 (収集品採集 / Collect)</p>
+    <p>액션리스트에 추가되어 핫바에 등록 가능해집니다.</p>
+    <p>산사의 안목 (山師の眼力 / Luck of the Mountaineer)</p>
+    <p>GP를 소비하여 사용할 수 있게 됩니다.</p>
+</div>
+
+<h5 class="orange">원예사</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">변경점</p>
+    <p>노농의 지식 (老農の知 / Ageless Words)</p>
+    <p>특성 '노농의 지식 효과 업'에 의해 자신에게 '이지흥기 실행가능'을 일정 확률로 부여하는 효과가 추가됩니다.</p>
+    <p>수집품 채집 (収集品採集 / Collect)</p>
+    <p>액션리스트에 추가되어 핫바에 등록 가능해집니다.</p>
+    <p>개척자의 안목 (山師の眼力 / Luck of the Pioneer)</p>
+    <p>GP를 소비하여 사용할 수 있게 됩니다.</p>
+</div>
+
+<h5 class="orange">어부</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">변경점</p>
+    <p>밑밥 (撒き餌 / Chum)</p>
+    <p>
+        ・획득레벨이 54 → 5로 내려갑니다.<br />
+        ・필요GP가 145 → 100으로 내려갑니다.
+    </p>
+    <p>피시아이 (フィッシュアイ / Fish Eyes)</p>
+    <p>5.0지역까지의 물고기에 효과를 발휘하게 됩니다. (오션피싱/오오누시는 제외)</p>
+    <p>베테랑 트레이드 (ベテラントレード / Veteran Trade)</p>
+    <p>
+        효과가 '액션을 사용한 시점에서 마지막에 획득한 물고기가 출현하지 않게 된다. 그 낚시터에서 채집하는 동안 효과가 유지된다. 단, 효과가 없는 물고기도 있다.'로 변경됩니다.
+    </p>
+    <p>네이처 바운티 (ネイチャーバウンティ / Nature's Bounty)</p>
+    <p>효과가 '직후에 획득하는 물고기의 라지사이즈 확률이 증가한다. 플레이어의 기술력에 따라 확률이 상승한다.'로 변경됩니다.</p>
+</div>
+
+<h5 class="green">≪특성≫</h5>
+<h5 class="orange">어부</h5>
+<div class="grid_general" style="grid-template-columns: 1fr 2fr;">
+    <p class="heading">명칭</p>
+    <p class="heading">변경점</p>
+    <p>갈아이 (ガルアイ / Gulleye)</p>
+    <p>갈아이IX까지의 특성이 통합되어, 효과가 '자신의 레벨 이하의 숨겨진 곳을 발견하고 낚시를 할 수 있게 된다.'로 변경됩니다.</p>
+</div>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>개더러 파라미터에 이하의 변경이 있습니다.</h4>
+<p class="dia-list">'식별력 (識質力 / Perception)'이 '기술력 (技術力)'으로 변경됩니다.</p>
+<p class="dia-list">채굴사/원예사에서 HQ획득률이 폐지되고, 획득수 보너스율로 변경됩니다.</p>
+<p class="tab">획득수 보너스가 발생하면, 아이템 입수 수량이 +1됩니다. 획득수 보너스 비율은 기술력을 올리면 상승합니다.</p>
+<p class="tab">또한, HQ획득률에 관하여 채집장소의 특성은 회득수 보너스률에 관한 것 등으로 변경되었습니다.</p>
+<p><img src="600/069.jpg"/></p>
+<p class="dia-list">HQ입수시 경험치 보너스 +200%가 폐지되고, 획득수 보너스 발생시 경험치 보너스 +100%가 추가됩니다.</p>
+<p class="dia-list">어치브먼트 '완벽한 채굴사 (腕利きの採掘師 / An Eye for Quality)' '완벽한 원예사 (腕利きの園芸師 / An Eye for Quality)'의 달성조건이 HQ아이템 채집개수에서 획득수 보너스 발생횟수로 변경됩니다.</p>
+<p class="dia-list">채굴사/원예사에서 채집 조건으로 일정 '기술력' 값을 요구하는 아이템이 추가됩니다.</p>
+<p><img src="600/070.jpg"/></p>
+<p><img src="600/071.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>개더러 장비의 VIT값이 조정됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>채굴사/원예사의 채집수첩에 이하의 변경이 있습니다.</h4>
+<p class="dia-list">'레벨' 카테고리의 정렬순서가 레벨이 높은 순으로 변경됩니다.</p>
+<p class="dia-list">카테고리 '스페셜'에서 항목의 분류/정리가 시행됩니다.</p>
+<p><img src="600/072.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>이하의 아이템에 대하여, HQ아이템이 배출되지 않게 됩니다.</h4>
+<p class="list">채굴사/원예사/어부가 채집할 수 있는 아이템</p>
+<p class="list">필드 몬스터를 토벌했을 때 드롭되는 재료</p>
+<p class="list">알라간 툼스톤으로 교환할 수 있는 재료</p>
+<p class="list">크래프터 스크립/개더러 스크립으로 교환할 수 있는 재료</p>
+<p class="list">'정선'으로 획득할 수 있는 재료</p>
+<p class="red">※ 크래프터가 제작할 수 있는 아이템은 패치 6.0이후에도 HQ아이템을 입수할 수 있습니다. 지금까지처럼 트레저 헌트나 분해 등 제작 이외의 수단으로도 HQ아이템을 입수할 가능성이 있습니다.<br/>
+※ 패치 6.0전에 크래프터에서 제작한 HQ아이템은 패치 6.0이후에도 HQ아이템으로 사용할 수 있습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>채굴사/원예사/어부의 채집으로 HQ아이템을 입수할 수 없게됨에 따라 이하의 변경이 있습니다.</h4>
+<p class="dia-list">이하의 개더러 관련 퀘스트에서 납품대상인 NQ아이템을 납품하여도 완료할 수 있게 됩니다.</p>
+<div class="tab">
+    <p class="list">채굴사 클래스 퀘스트</p>
+    <p class="list">원예사 클래스 퀘스트</p>
+    <p class="list">어부 클래스 퀘스트</p>
+    <p class="list">민공예관 '조달과' 퀘스트</p>
+    <p class="list">민공예과 '어업과' 퀘스트</p>
+    <p class="list">나오즈마족 만족 데일리 퀘스트</p>
+    <p class="list">키타리족 만족 데일리 퀘스트</p>
+</div>
+<p class="red tab">※ 납품대상인 HQ아이템을 보유하고 있는 경우에는 HQ아이템을 납품해도 퀘스트를 완료할 수 있습니다.</p>
+<p class="dia-list">다음에서 납품할 때, HQ아이템 납품시 보너스가 폐지되고, 기본 보상량이 증가합니다.</p>
+<div class="tab">
+    <p class="list">민공예관 '조달과' 퀘스트</p>
+    <p class="list">민공예관 '어업과' 퀘스트</p>
+    <p class="list">어부용 '채집직업' 리브</p>
+    <p class="list">그랜드컴퍼니 '보급품조달'</p>
+</div>
+<p class="dia-list">어부에서 HQ 물고기를 낚을 수 없게 되고, 대신 'Large사이즈 (Largeサイズ / Large-sized)' 물고기를 잡을 수 있게 됩니다.</p>
+<p class="dia-list">Large사이즈 물고기를 낚으면, 일정확률로 '빅 피셔 (ビッグフィッシャー / Angler's Art)' 스테이터스가 부여됩니다.</p>
+<p class="tab">'빅 피셔'는 최대 10스택이 되고, 스택된 버프를 소비하여 다양한 액션을 사용할 수 있습니다.</p>
+<p><img src="600/073.jpg"/></p>
+<p><img src="600/074.jpg"/></p>
+<p class="dia-list">HQ 물고기를 낚음이 조건으로 설정되어 있던 다음 요소의 발동/효과대상/달성조건이 'Large사이즈'를 대상 조건으로 변경됩니다.</p>
+<div class="tab">
+    <p class="list">'생미끼 낚시 (泳がせ釣り / Mooch)' 발동 조건</p>
+    <p class="list">'페이션스 (ペーシェンス / Patience)' '페이션스2 (ペーシェンスII / Patience II)'를 업 할 확률</p>
+    <p class="list">'릴리스 일람 표시 (リリース一覧表示 / )' 대상 선별</p>
+    <p class="list">어치브먼트 '완벽한 어부 (腕利きの漁師 / The One That Didn't Get Away)' 달성조건</p>
+</div>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>패치 6.0에서 배출이 중단되는 HQ아이템에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">아이템 상세에 '일반 아이템과 동등하게 취급되는 HQ 아이템 (通常のアイテムと同等に扱われるHQアイテム / Functions as a normal-quality item)'으로 표시되게 됩니다.</p>
+<p><img src="600/075.jpg"/></p>
+<p class="dia-list">마켓에서 출품/구입 혹은 다른 플레이어와의 트레이드를 할 수 없게 됩니다.</p>
+<p class="dia-list">제작 재료로 사용했을 때, 초기품질에 영향을 주지 않게 됩니다.</p>
+<p class="dia-list">'퀘스트/길드리브에의 납품' '그랜드컴퍼니 보급품조달에의 납품' '컴퍼니 크래프트에의 납품'으로 납품했을 때, 보상 보너스를 획득할 수 없게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>원예사에서 이하의 아이템 채집 레벨이 변경됩니다.</h4>
+<h5 class="orange">비치 가지 (ビーチの枝 / Beech Branch)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>레벨60★★</p>
+    <p class="space">🡺</p>
+    <p>레벨61</p>
+</div>
+<h5 class="orange">화이트 오크 가지 (ホワイトオークの枝 / White Oak Branch)</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>레벨70★★</p>
+    <p class="space">🡺</p>
+    <p>레벨71</p>
+</div>
+<p><br /></p>
+
+<p><span class="ver4">4.x</span></p>
+<h4>작살낚시 (刺突漁 / Spearfishing) 방법이 대폭 수정되어 화면내에 출현하는 물고기를 작살로 찌르는 새로운 놀이로 변경됩니다.</h4>
+<p><img src="600/076.jpg"/></p>
+<h5 class="green">≪새로운 작살낚시 방법≫</h5>
+<p>1. 어부 부도구 '피셔 긱 (フィッシャーギグ / Spearfishing gig)'을 장비하고, 수중에서 액션 '파좀 (ファゾム / Fathom)'과 '샤크아이 (シャークアイ / Shark Eye)'를 사용하여 '어장'을 찾아 채집을 시작한다.</p>
+<p><img src="600/077.jpg"/></p>
+<p>2. 화면 상에서 좌우에서 헤엄쳐오는 물고기를 겨냥해 액션 '기깅 (ギギング / Gig)'으로 작살을 던진다.</p>
+<p><img src="600/078.jpg"/></p>
+
+<h5 class="green">≪새로운 작살낚시의 포인트≫</h5>
+<h5 class="orange">히트박스 (ヒットボックス / Weak Spots)</h5>
+<p>작살낚시중에 출현하는 물고기는 '히트박스'라고 하는 약점을 가지고 있습니다. '기깅'으로 작살을 던질 때 약점을 찌르면 물고기를 획득할 수 있습니다.</p>
+<p><img src="600/079.jpg"/></p>
+<p>출현하는 물고기 중에는 이펙트가 붙어 있는 물고기가 존재하며, 이 물고기는 반드시 'Large사이즈'로 획득할 수 있습니다.</p>
+<p><img src="600/080.jpg"/></p>
+
+<h5 class="orange">경계도 (警戒度 / Wariness)</h5>
+<p>작살낚시중에 물고기는 항상 이쪽을 경계하고 있고, '경계도'에 그 정도가 표시됩니다. 경계도는 시간이 경과하거나 기깅 실행시 상승하여, 최대에 이르면 낚시는 종료됩니다.</p>
+<p><img src="600/081.jpg"/></p>
+
+<h5 class="orange">히트게이지 (ヒットゲージ / Catch Counter)</h5>
+<p>시간경과에 따라 감소하는 히트게이지가 없어지기 전에 물고기를 획득하면, 히트게이지 중앙 수치가 상승합니다(최대 10). 이 수치가 높으면 높을수록 경계도 상승을 막을 수 있습니다. 히트게이지가 없어지기 전에 물고기를 획득하지 못한 경우, 수치는 리셋됩니다.</p>
+<p><img src="600/082.jpg"/></p>
+<p class="red">※ 작살낚시를 중간에 중단하고 싶을 때는 ESC키/캔슬 버튼/액션 '중단'을 실행해주세요.</p>
+<p><br /></p>
+
+<p><span class="ver4">4.x</span><span class="ver6">6.x</span></p>
+<h4>작살낚시에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">새로운 어장이 추가됩니다.</p>
+<p class="dia-list">작살낚시의 개편에 따라, 조황기록 카테고리명이 변경되며 물고기 실루엣의 사이즈별로 기록되게 됩니다.</p>
+<p class="red tab">※ 6.0 공개전의 조황기록은 유지됩니다.</p>
+<p><img src="600/083.jpg"/></p>
+<p class="dia-list">일부 어장에서 특정 물고기를 잡으면 발동하는 '작살사의 직감 (銛師の直感 / Spearfisher's Intuition)'이 추가됩니다.</p>
+<p class="tab">'작살사의 직감' 발동중에는 평소에는 숨어서 모습을 보이지 않는 특수한 물고기가 출현하게 됩니다.</p>
+<p class="dia-list">조황기록에서 일부 어장별로 '놀라움 (驚 / AAA)'까지 평가를 얻을 수 있게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>오션피싱에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">'Large사이즈'를 낚아올렸을 때 2배의 조황점 (釣果点)을 받을 수 있습니다.</p>
+<p class="dia-list">갈매기떼가 출현했을 때 부여되는 버프 스테이터스 '갈매기 폭풍 (鴎嵐 / Gullstorm)'의 효과가 '물고기를 낚아올렸을 때 HQ가 될 확률이 상승한 상태' → '라지사이즈 물고기가 걸릴 확률이 상승한 상태'로 변경됩니다.</p>
+<p class="dia-list">레벨 상한의 상승에 따라 특정 레벨대에서 참가했을 때의 보상이 다음처럼 설정됩니다.</p>
+<h5 class="orange">레벨 50 ~ 89</h5>
+<p class="list">경험치</p>
+<p class="list">개더러 스크립: 백화</p>
+<h5 class="orange">레벨 90</h5>
+<p class="list">개더러 스크립: 백화</p>
+<p class="list">개더러 스크립: 자화 (특정조건을 만족한 경우)</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>낚시에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">새로운 어장이 추가됩니다.</p>
+<p class="dia-list">조황기록에서 일부 어장별로 '신 (神 / S-Rank)'까지 평가를 얻을 수 있게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>'어부의 직감 (漁師の直感 / Fisher's Intuition)' 조건 달성 상황이 로그아웃해도 보존되게 됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>이하의 미끼에 대해 숍에서의 판매액이 낮아집니다.</h4>
+<ul>
+    <li>活海老 / Live Shrimp</li>
+    <li>ドバミミズ / Nightcrawler</li>
+    <li>赤虫 / Midge Larva</li>
+    <li>蚕蛹 / Silkworm</li>
+    <li>モエビ / Moyebi Shrimp</li>
+    <li>マーブルラーヴァ / Marble Nymph</li>
+    <li>デザートフロッグ / Desert Dessert Frog</li>
+</ul>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 '전승록'이 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 채집 포인트가 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>채집 포인트에서 새로운 아이템을 채집할 수 있게 됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>이하의 채집 아이템이 채집장소가 변경됩니다.</h4>
+<h5 class="orange">채굴사</h5>
+<ul>
+    <li>황동광 (黄銅鉱 / Yellow Copper Ore)</li>
+    <li>황철광 (黄鉄鉱 / Pyrite)</li>
+    <li>옐로쿼츠 (イエロークォーツ / Yellow Quartz)</li>
+    <li>휘동광 (輝銅鉱 / Chalcocite)</li>
+    <li>갈철광 (褐鉄鉱 / Limonite)</li>
+    <li>그린쿼츠 (グリーンクォーツ / Green Quartz)</li>
+    <li>적철광 (赤鉄鉱 / Light Kidney Ore)</li>
+    <li>적동광 (赤銅鉱 / Cuprite)</li>
+</ul>
+<h5 class="orange">원예사</h5>
+<ul><li>비치 가지</li>
+    <li>화이트 오크 가지</li></ul>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 정선 대상 아이템이 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span></p>
+<h4>정선시 아이템 획득량이 일부 상향됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>분해 스킬의 상한치가 520 → 580으로 높아집니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>새로운 마운트가 추가됩니다.</h4>
+<p><img src="600/084.jpg"/></p>
+<p><img src="600/085.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>새로운 미니언이 추가됩니다.</h4>
+<p><img src="600/086.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>새로운 초코보 갑주가 추가됩니다.</h4>
+<p><img src="600/087.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>새로운 패션 악세서리가 추가됩니다.</h4>
+<p><img src="600/088.jpg"/></p>
+<p><br /></p>
+<p><br /></p>
+
+<h2><span>시스템 관련 / System</span></h2>
+<p><span class="ver6">6.x</span></p>
+<h4>'올드 샤레안'에 마켓보드가 설치됩니다.</h4>
+<p>이에 따라, 마켓의 감세 발생 판정이 조정됩니다.</p>
+<p><img src="600/089.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>리테이너에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">올드 샤레안의 마켓에 등록할 수 있게 됩니다.</p>
+<p class="dia-list">레벨상한이 90으로 올라갑니다.</p>
+<p class="dia-list">리퍼/현자로 잡체인지 할 수 있게 됩니다.</p>
+<div class="tab">
+    <p>더불어, 리퍼/현자로 잡체인지하려면, 이하의 조건을 만족해야 할 필요가 있습니다.</p>
+    <p class="list">잡을 설정하지 않음<br/>
+    <span class="red">※ 이미 잡이 설정되어 있는 경우, 리테이너 메뉴에서 '리테이너의 클래스/잡 설정'을 선택하면 잡의 리셋이 가능합니다. 이 때, 리테이너의 레벨도 1로 리셋되니 주의해주세요.</span></p>
+    <p class="list">리테이너의 레벨이 70이상인 파이터 혹은 소서러</p>
+    <p class="list">플레이어가 리퍼/현자를 개방</p>
+    <p class="list">플레이어가 '잡의 마음 (ジョブの心得 / Copy of Modern Vocation)'을 소지</p>
+</div>
+<p class="dia-list">리테이너의 '다음 레벨업까지 필요한 경험치'에서 수치의 비대화를 막기 위해 디노미네이션이 시행됩니다.</p>
+<p class="tab">본 변경에 따라, 리테이너 벤처 달성시 획득 경험치량도 디노미네이션 후의 적절한 값으로 조정됩니다.<br/>
+<span class="red">※ 본 변경에 따른 데이터베이스 수정 작업을 위해, 패치 6.0 공개전에 축적중이던 경험치는 0으로 리셋됩니다.</span></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>리테이너 벤처에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">'조달의뢰 (調達依頼) / 탐색의뢰 (探索依頼)'에 새로운 항목이 추가됩니다.</p>
+<p class="dia-list">'조달의뢰/탐색의뢰'에서 입수 개수의 최대치가 증가합니다.</p>
+<p class="tab">'조달의뢰'에서는 리테이너의 파라미터를 상승시켜 입수 개수의 최대치에 도달할 수 있습니다.</p>
+<p class="dia-list">'발굴의뢰 (ほりだしもの依頼 / Quick Exploration)'에서 입수할 수 있는 아이템이 추가됩니다.</p>
+<p class="dia-list">개더러의 '조달의뢰'에서 리테이너의 획득력에 따라 입수개수가 증가하던 것이 기술력에 대응하여 증가하도록 변경됩니다.</p>
+<p class="dia-list">의뢰윈도우에서 아이템 레벨이나 획득력 등 필요조건을 만족하는지 확인할 수 있게 됩니다.</p>
+<p class="dia-list">개더러 의뢰윈도우에 서브커맨드 '채집방법을 검색' '이 재료로 만들 수 있는 것 확인' 항목이 추가됩니다.</p>
+<p class="dia-list">개더러 의뢰윈도우의 리스트상에서 미채집인 것을 확인할 수 있게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>어치브먼트 윈도우가 리뉴얼되어 '곧 달성! (もうすぐ達成！ / Near Completion)' 탭과 '추천 보상 (おすすめ報酬 / Recommended)' 탭이 추가됩니다.</h4>
+<p><img src="600/090.jpg"/></p>
+
+<h5 class="green">≪'곧 달성!' 탭에 대하여≫</h5>
+<p>달성이 가까운 어치브먼트가 표시됩니다.</p>
+
+<h5 class="green">≪'추천 보상' 탭에 대하여≫</h5>
+<p>미달성 어치브먼트 중에 아이템/칭호를 보상으로 얻을 수 있는 것부터 최대 4개가 표시됩니다. 마음에 드는 보상을 설정하면 설정한 보상을 얻을 수 있는 어치브먼트를 우선적으로 표시할 수 있습니다.</p>
+<p><img src="600/091.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>새로운 어치브먼트 / 칭호가 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>텔레포에 이하의 추가가 있습니다.</h4>
+<p class="dia-list">전송망 이용권을 설정한 금액 이상일 경우에만 사용하는 기능이 추가됩니다.</p>
+<p><img src="600/092.jpg"/></p>
+<p class="dia-list">전송망 이용권을 사용할 때 확인 유무를 설정할 수 있게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>텔레포 실행시 소비되는 길이 조정됩니다.</h4>
+<p><br /></p>
+
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>도시전송망의 행선지를 선택할 때, 맵이 연동되어 표시되도록 변경됩니다.</h4>
+<p><img src="600/093.jpg"/></p>
+<p class="red">※ 다음 지역의 전송망에는 대응하지 않습니다.</p>
+<ul>
+    <li>금단의 땅 에우레카: 아네모스편/파고스편/퓨로스편/휴다토스편</li>
+    <li>남방 보즈야 전선</li>
+    <li>자투노르 고원</li>
+    <li>창천가</li>
+</ul>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>월드맵 표시방법이 변경되어 동방 지역도 포함된 삼대주 전체 지도가 표시되게 됩니다.</h4>
+<p><img src="600/094.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>2D맵 표시중 계층전환을 LB+X버튼(L1+□버튼)으로 할 수 있게 됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>PC서치에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">CLASS/JOB에 '리퍼' '현자'가 추가되어 표시가 변경됩니다.</p>
+<p><img src="600/095.jpg"/></p>
+<p class="dia-list">LOCATION에 상세 편집 기능이 추가됩니다.</p>
+<p><img src="600/096.jpg"/></p>
+<p><img src="600/097.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>파티리스트에 영창 대상이 표시되게 됩니다.</h4>
+<p><img src="600/098.jpg"/></p>
+<p>대상이 플레이어 캐릭터인 경우에는 파티리스트 번호, 대상이 몬스터인 경우에는 적대 리스트 기호(알파벳)으로 표시됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>파티 모집에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">상세 검색에서 '잡 중복 없음' 설정에 의해 참가할 수 없는 모집이 검색 결과에서 제외되게 됩니다.</p>
+<p class="dia-list">'퓨어힐러' '배리어힐러'를 지정할 수 있게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>파티를 짠 상태에서 매칭을 취소했을 때, 취소자만이 아니라 파티멤버에게도 패널티가 부여된다는 내용이 표시됩니다.</h4>
+<p>취소 전 컨텐츠 돌입에 동의했던 플레이어에게만 표시됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>'풍맥의 나침반 (風脈のコンパス / Aether Compass)'이 중요한 것으로 이동됩니다.</h4>
+<p>패치 6.0 공개전에 핫바에 등록해 둔 경우, ? 아이콘에 사선이 표시된 상태가 됩니다. 이쪽은 불필요하므로 파기해도 문제 없습니다.<br/>
+<span class="red">※ 이전에 소지하고 있던 '풍맥의 나침반'을 버린 경우, 중요한 것으로 자동으로 추가됩니다.</span></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>네임플레이트에 표시되는 HP바가 전투불능시에도 표시되게 됩니다.</h4>
+<p><img src="600/099.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>HUD 레이아웃의 상태 정보에서 '트리거 버프 (トリガーバフ / Conditional Enhancements)'를 분리해 표시할 수 있게 됩니다.</h4>
+<p><img src="600/100.jpg"/></p>
+<p>메인커맨드 '시스템 메뉴' → 'HUD레이아웃' → '스테이터스 정보' → '개별HUD정보' → '레이아웃 선택' → '4개의 HUD로 분할하여 표시한다'에 체크하여 설정할 수 있습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>그라운드 타겟에 이하의 추가/변경이 있습니다.</h4>
+<p class="dia-list">커서 이동속도 설정값이 0~100 → 0~200으로 변경됩니다.</p>
+<p class="dia-list">배치위치 커서가 범위 밖으로 나오지 않도록 하는 설정이 추가됩니다.</p>
+<p class="dia-list">배치모드중 액션을 다시 누르면, 결정 버튼을 누르지 않고도 배치할 수 있는 설정이 추가됩니다.</p>
+<p class="dia-list">배치모드를 경유하지 않고 즉시 액션을 수행하는 텍스트 커맨드가 추가됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>아이템 납품이나 주고받기 창에서 마우스 우클릭 혹은 X버튼(□버튼)을 누르면 자동으로 선택되는 아이템에 대해, HQ 아이템 및 수집가치가 높은 것부터 선택되도록 변경됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>레벨 상한의 개방에 따라, 비기너 플레이어 서포트 범위를 확대하기 위해, 온라인 상태 '비기너'가 유효한 조건이 다음처럼 변경됩니다.</h4>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>
+        ・플레이시간이 168시간 미만<br />
+        ・메인퀘스트 '영웅에의 진혼가 (英雄への鎮魂歌 / A Requiem for Heroes)'를 완료하지 않았다
+    </p>
+    <p class="space">🡺</p>
+    <p class="red">
+            ・플레이시간이 300시간 미만<br />
+            ・메인퀘스트 '여명의 사투 (黎明の死闘 / Death Unto Dawn)'를 완료하지 않았다
+    </p>
+</div>
+<p>상기 어느쪽인가를 만족하고 있는 경우, 비기너 스테이터스가 유효하게 됩니다.<br/>
+<span class="red">※ 패치 6.0 공개전에 초보자 상태가 해제되어 있는 경우에도, 변경후 조건을 만족한 상태에서 텍스트 명령어 '/beginnerstatus on'을 실행하면 다시 '서치 정보 편집'에서 비기너 스테이터스를 유효화 할 수 있습니다.</span></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>멘토와 비기너/리터너가 파티를 구성하여 얻을 수 있는 경험치 보너스에 대하여, 보너스를 획득할 수 있는 레벨 상한이 20 → 80으로 변경됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>레벨 상한의 개방에 따라, 멘토가 되기 위한 어치브먼트 조건이 변경됩니다.</h4>
+<h5 class="green">≪배틀클래스용 어치브먼트 조건≫</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p><span class="left">
+        ・탱크 레벨 80 롤퀘스트를 완료<br />
+        ・힐러 레벨 80 롤퀘스트를 완료<br />
+        ・파이터계DPS 혹은 소서러계DPS 레벨 80 롤퀘스트 완료<br />
+        ・던전, 토벌/토멸전을 1,000회 완료<br />
+        ・MIP추천을 1,500회 획득
+    </span></p>
+    <p class="space">🡺</p>
+    <p><span class="left">
+        ・탱크 <span class="red">레벨 90</span> 롤퀘스트를 완료<br />
+        ・힐러 <span class="red">레벨 90</span> 롤퀘스트를 완료<br />
+        ・<span class="red">근접물리DPS/원거리물리DPS/ 원거리마법DPS 중 어느 레벨 90</span> 롤퀘스트를 완료<br />
+        ・던전, 토벌/토멸전을 1,000회 완료<br />
+        ・MIP추천을 1,500회 획득
+    </span></p>
+</div>
+
+<h5 class="green">≪개더러/크래프터용 어치브먼트 조건≫</h5>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p><span class="left">
+        ・어느 개더러 클래스가 레벨 80에 도달<br />
+        ・어느 크래프터 클래스가 레벨 80에 도달<br />
+        ・수집품을 100회 제작한다<br />
+        ・수집품을 300회 채집한다
+    </span></p>
+    <p class="space">🡺</p>
+    <p><span class="left">
+        ・어느 개더러 클래스가 <span class="red">레벨 90</span>에 도달<br />
+        ・어느 크래프터 클래스가 <span class="red">레벨 90</span>에 도달<br />
+        ・수집품을 100회 제작한다<br />
+        ・수집품을 300회 채집한다
+    </span></p>
+</div>
+
+<h5 class="green">≪이행기간에 대하여≫</h5>
+<p>패치 6.0x중에는 이행기간으로, 새로운 조건을 충족하고 멘토 인증을 받지 않으면 일부 멘토 기능에 제한을 받게 됩니다.</p>
+<p>또한, 기간중에 멘토 인증을 받지 않은 경우, 패치 6.1에서 멘토 자격을 잃게 됩니다. 실효되어버린 경우라도, 패치 6.1 이후에 조건을 만족하면 멘토 인증을 받을 수 있습니다.</p>
+<h5 class="orange">이행기간 중 멘토 인증을 받지 않아도 되는 것</h5>
+<p class="list">비기너 채널에 참여</p>
+<p class="list">비기너나 리터너와 파티를 짰을 때 경험치 보너스 획득</p>
+<h5 class="orange">이행기간 중 멘토로 인정받을 때까지 제한되는 것</h5>
+<p class="list">'컨텐츠 룰렛: 멘토' 신청</p>
+<p class="list">온라인 상태를 멘토로 전환</p>
+<p><br /></p>
+
+<p><span class="ver4">4.x</span><span class="ver6">6.x</span></p>
+<h4>'자유탐색에 참가'가 가능한 던전이 추가됩니다.</h4>
+<h5 class="green">≪대상 던전≫</h5>
+<ul><li>세이렌해</li>
+    <li>자수궁</li>
+    <li>바르담 패도</li>
+    <li>도마성</li>
+    <li>카스트룸 아바니아</li>
+</ul>
+<p>그 외 패치 6.0에서 추가되는 인스턴스 던전이 추가됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>그룹포즈에 이하의 추가/변경이 있습니다.</h4>
+<p><img src="600/101.jpg"/></p>
+<p class="dia-list">악기연주 중에 기동할 수 있게 됩니다.</p>
+<p class="tab">악기연주시 메뉴에 그룹포즈 기동 버튼이 추가되어, 여기를 누르는 것으로 기동할 수 있습니다. 그룹포즈 기동전에 실행한 연주모션이 반복하여 재생됩니다.</p>
+<p><img src="600/102.jpg"/></p>
+<p class="dia-list">변신이나 롤 플레이 중에 사용할 수 있는 전용 액션이 재생되게 됩니다.</p>
+<p class="dia-list">새로운 프레임 표시가 추가됩니다.</p>
+<p class="dia-list">새로운 스티커가 추가됩니다.</p>
+<p class="dia-list">패치 6.0에서 추가되는 퀘스트에 동행하는 NPC를 선택대상으로 설정할 수 있습니다.</p>
+<p><img src="600/103.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>컨텐츠 리플레이의 대상 컨텐츠가 변경됩니다.</h4>
+<div class="grid_re">
+    <p class="heading gray">변경전</p>
+    <p class="space">&nbsp;</p>
+    <p class="heading">변경후</p>
+    <p>
+        ・인형들의 군사기지<br />
+        ・희망의 정원 에덴 영식: 재생편4
+    </p>
+    <p class="space">🡺</p>
+    <p class="red">
+        ・희망의 포대: '탑'<br />
+        ・???????? 토멸전<br />
+        ・???????? 토멸전
+    </p>
+</div>
+<p>패치 6.0에서 추가되는 토벌/토멸전에서 2종류의 컨텐츠가 추가됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>마켓보드에서 출품된 아이템의 서브커맨드에 '제작방법 검색' '채집방법 검색'이 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>채팅로그에서 HowTo로그를 선택했을 때, 대상 HowTo가 표시되게 됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>다른 월드에 있는 프렌드 이외의 캐릭터로부터의 Tell에 답장할 때, 실패시 표시되는 에러메세지에 회신을 성공하기 위한 설명이 표시되게 됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>마우스 드래그로 로그 윈도우의 크기를 변경하는 기능을 비활성화시킬 수 있게 됩니다.</h4>
+<p>메인커맨드 '시스템메뉴' → '캐릭터 컨피그' → '챗 로그 설정'의 '전반' 탭에서 '로그윈도우의 사이즈 변경을 유효화한다'의 체크박스로 전환할 수 있습니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver6">6.x</span></p>
+<h4>패치 6.0 릴리즈 직후의 혼잡 완화를 위해 일시적으로 이하의 기능이 추가됩니다.</h4>
+<p class="red">※ 릴리즈 후의 로그인 상황이나 월드 상황을 확인한 후, 기능을 삭제할 예정입니다.</p>
+<p class="dia-list">아무 조작도 하지 않는 상태가 30분 계속된 경우, 자동적으로 로그아웃하는 처리가 강화됩니다.</p>
+<p class="dia-list">6.0지역을 복수의 필드 인스턴스로 분할합니다.</p>
+<p class="red tab">※ 임의의 인스턴스에 이동하고 싶은 경우, 인접한 지역에서 이동시 선택하는 것 외에, 에테라이트에서도 인스턴스를 선택할 수 있습니다.</p>
+<p>자세한 것은 '<a href="https://sqex.to/7LSfG" target="_blank">여기(일본어)</a>'를 참고해주세요.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>윈도우즈판에서 PS5/PS4의 무선 컨트롤러(DualSense™ ワイヤレスコントローラー / DUALSHOCK4®)의 일부 기능을 이용할 수 있게 됩니다.(DX11판만)</h4>
+<p>DualSense™ 무선 컨트롤러는 USB를 통한 유선 접속, DUALSHOCK4®는 USB를 통한 유선접속이나 무선어댑터 CUH-ZWA1x(x에는 판매지역에 따라 다른 글자가 들어갑니다)를 통한 접속시에만 각종 기능을 이용할 수 있게 됩니다.<br/>
+<span class="red">※ 윈도우즈 표준인 블루투스 접속의 경우에는 각종 기능을 이용할 수 없으니 주의해주세요.<br/>
+※ 접속을 했을 때, 윈도우즈의 액티브 사운드 디바이스가 무선 컨트롤러로 바뀌는 경우가 있습니다. 필요에 따라 사운드 설정을 변경해주세요.</span></p>
+
+<h5 class="green">≪DualSense™ 무선 컨트롤러로 이용 가능한 기능(USB를 통한 유선접속시에만)≫</h5>
+<p class="list">햅틱 피드백을 통한 진동 기능</p>
+<p class="list">어댑티브 트리거를 통한 트리거 이펙트 기능</p>
+<p class="list">스피커를 통한 SE재생</p>
+
+<h5 class="green">≪DUALSHOCK4®로 이용 가능한 기능(USB를 통한 유선접속, 무선어댑터를 통한 무선접속시에만)≫</h5>
+<p class="list">진동 기능</p>
+<p class="list">스피커를 통한 SE재생(일부 모델로는 이용할 수 없습니다)</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>윈도우즈판에서 옵셔널 사운드 애드온 'Immerse Spatial Audio'에 대응하게 됩니다. (DX11판만)</h4>
+<p class="red"><b>본 기능을 이용하기 위해서는 별도의 유선 사운드 애드온 'Immerse Spatial Audio'의 구매가 필요합니다.</b></p>
+<p>'Immerse Spatial Audio'은 Embody사가 제공하는 유상 옵셔널 사운드 애드온입니다.</p>
+<p>사운드를 귀의 형태에 맞추어 퍼스널라이즈하여 재생함으로써, 360도에서 소리가 들리는듯한, 보다 입체감 있는 오디오를 즐길 수 있게 됩니다.</p>
+<p>'Immerse Spatial Audio'의 무료체험, 판매개시, 가격, 지원 등의 자세한 정보는 '<a href="https://embody.co/pages/ffxiv" target="_blank">Immerse™ 공식 사이트</a>'를 참고해주세요.</p>
+<p>연계설정은 메인커맨드 '시스템 컨피그' → '사운드 설정'에서 '"Immerse Spatial Audio"를 유효하게 한다'에 체크해 주세요.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>메인커맨드 '시스템 메뉴' → '시스템 컨피그'에 이하의 설정항목이 추가됩니다. (윈도우즈판/PS4판/PS5판)</h4>
+<h5 class="green">≪사운드 설정≫</h5>
+<p class="tab"><span>
+    "Immerse Spatial Audio"의 유효화 설정 (윈도우판만)<br />
+    무선 컨트롤러 설정 (윈도우판/PS4판/PS5판)</span>
+    <ul><li>스피커에서 출력할 종류 설정</li>
+        <li>스피커 음량 설정</li>
+    </ul>
+</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>메인커맨드 '시스템 메뉴' → '캐릭터 컨피그'에 이하의 설정항목이 추가됩니다.</h4>
+<h5 class="green">≪유저인터페이스 설정≫</h5>
+<p><b>'HUD' 탭</b></p>
+<p class="tab"><span>캐릭터 설정</span><br />
+    <ul><li>배틀 토크에 화자 아이콘을 표시한다</li></ul>
+</p>
+
+<h5 class="green">≪조작설정≫</h5>
+<p><b>'캐릭터' 탭</b></p>
+<p class="tab"><span>배틀 이펙트 설정</span><br />
+    <ul><li>PvP시 적PC</li></ul>
+</p>
+<p><b>'타겟' 탭</b></p>
+<p class="tab"><span>그라운드 타겟 설정</span><br />
+    <ul><li>GT액션의 유효범위 내에서만 조작 가능하게 한다</li>
+        <li>GT모드중 동일 액션 버튼을 눌러 GT액션을 실행한다</li></ul>
+</p>
+
+<h5 class="green">≪챗 로그 설정≫</h5>
+<p><b>'전반' 탭</b></p>
+<p class="tab"><span>챗 로그 설정</span><br />
+    <ul><li>로그윈도우 사이즈 변경을 유효하게 한다</li></ul>
+</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>텍스트 커맨드에 이하가 추가/변경됩니다.</h4>
+<p class="blue">※ /ridepillion(다인용 마운트에 파티멤버를 탑승), /patchnote(로드스톤 내 패치노트 페이지 오픈), /petmirage(펫 외형), /petsize 추가</p>
+<p class="dia-list">텍스트 커맨드 /battleeffect 인자에 'enemypc'가 추가되고, 'PvP시 적 PC'를 대상으로 배틀 이펙트의 ON/OFF를 설정할 수 있게 됩니다.</p>
+<p class="dia-list">이하의 텍스트 커맨드에서 그라운드 타겟계 액션을 실행할 때, 인수 'gtoff'를 지정하여 그라운드 타겟 모드를 스킵하여 실행할 수 있게 됩니다.</p>
+<ul>
+    <li>/action</li>
+    <li>/pvpaction</li>
+    <li>/blueaction</li>
+    <li>/fieldmarking</li>
+    <li>/generalaction</li>
+</ul>
+<p class="dia-list">무선컨트롤러용 음량 설정 텍스트 커맨드 /systemsoundsspeaker를 윈도우판에서도 이용할 수 있게 됩니다.</p>
+<p class="dia-list">텍스트 커맨드 일람 및 /?를 이용한 텍스트 커맨드의 헬프 표시에서 이모트는 습득된 항목만 표시되게 됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>새로운 정형문이 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>PS4/PS5판의 변환사전에 용어가 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>새로운 트로피가 추가됩니다. (PS5판만)</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>많은 인원이 플레이할 때, 효과음을 듣기 쉽도록 사운드 엔진이 수정되었습니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span><span class="ver4">4.x</span><span class="ver5">5.x</span><span class="ver6">6.x</span></p>
+<h4>새로운 BGM/SE/보이스가 다수 추가됩니다.</h4>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>이후 예정되어 있는 오세아니아 데이터센터 준비를 위해, 데이터센터의 선택화면 표시가 조정됩니다.</h4>
+<p><img src="600/104.jpg"/></p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>UI어셋 타입 '고해상도: WQHD/4K용'을 선택하고 있는 경우, 타이틀화면, 로비화면의 폰트가 고해상도화 되게 됩니다. (윈도우판/맥판/PS5판)</h4>
+<p>PS5판에서는 항상 고해상도화됩니다.</p>
+<p><br /></p>
+
+<p><span class="ver2">2.x</span></p>
+<h4>런처에 이하의 추가/변경이 있습니다. (윈도우판/PS4판/PS5판)</h4>
+<p class="dia-list">디자인이 변경됩니다.</p>
+<p class="dia-list">컬러테마 설정이 추가됩니다.</p>
+<p class="tab">런처 내 컨피그로 라이트/다크를 전환할 수 있게 됩니다.</p>
+<p class="dia-list">게임 데이터를 복구하는 기능이 추가됩니다. (윈도우판만)</p>
+<p class="tab">데이터 파손등으로 게임을 진행하지 못하는 오류가 발생한 경우, 게임 데이터를 다시 다운로드하는 기능입니다.</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>기동시 게임로고 및 무비가 '효월의 피날레'로 변경됩니다.</h4>
+<p>'칠흑의 뷔란즈' 무비는 타이틀화면 'MOVIES&TITLE VERSION'에서 확인할 수 있습니다.</p>
+<p><br /></p>
+
+<p><span class="ver6">6.x</span></p>
+<h4>로드스톤 '사자의 궁전/아메노미하시라' 랭킹(솔로)에 '리퍼'와 '현자'가 추가됩니다.</h4>
+</div>
+<!-- CONTENTS AREA ENDS -->
+
+
+
+
+<div id="footer"><embed src="../footer.htm"/></div>
+</div>
+</div>
+</body>
+</html>
